@@ -24,7 +24,7 @@ function App() {
                 2000,
                 "video games 👾",
                 2000,
-                "creating",
+                "creating ✏️",
                 2000,
                 "cars 🚗",
                 2000,
