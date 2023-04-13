@@ -7,6 +7,13 @@ body {
   overflow-x: hidden;
 }
 
+h1{
+  background: linear-gradient(to right,#edb4ff, #c5e0ff);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .section {
   width: 100vw;
   height: auto;
@@ -43,6 +50,14 @@ body {
     width: 70vw;
    
   }
+
+  .picture {
+    height: 30vmin;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    border: 1vh solid #63636322;
+  }
+
   .content {
     width: 70%;
     @include media(">=phone", "<lgphone") {
