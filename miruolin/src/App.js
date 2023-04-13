@@ -37,10 +37,8 @@ function App() {
               ></Typical>
 
             </p>
-            <p>sorry!</p>
+            <p>Here you will find my skills, projects, and experience.</p>
             <p>Site currently under construction :)</p>{" "}
-          </div>
-          <div className="image-wrapper">
           </div>
         </div>
       </div>
