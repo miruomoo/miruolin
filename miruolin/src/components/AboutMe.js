@@ -16,24 +16,26 @@ function AboutMe() {
               <h1 className='gradient'> About Me </h1>
             </FadeIn>
             <p>
-              I'm Miruo Lin, a third-year software engineering student at Western University.
+              Hey there! I'm Miruo Lin, a third-year software engineering student at Western University.
             </p>
-            <p>Here you will find my skills, projects, and experience. I'm passionate about front-end development, design, and creating cool stuff. Currently, I'm looking for a Summer 2023 Internship!</p>
+            <p>Growing up, I've always enjoyed building stuff from Lego to IKEA furniture. I now apply the same passion to create really cool things with software.</p>
+            <p>Here you can find my skills, projects, and experience. Currently, I'm lookin for a Summer 2023 Internship!</p>
             <p>I also love {" "}<Typical
               loop={Infinity}
               wrapper="b"
               steps={[
                 "video games 👾",
-                1000,
+                3000,
                 "drawing ✏️",
-                1000,
+                3000,
                 "cars 🚗",
-                1000,
-                "challenges 🏁",
-                1000,
+                3000,
                 "learning 📚",
-                1000,
-                "music 🎵"
+                3000,
+                "music 🎵",
+                3000,
+                "ramen 🍜",
+                3000
               ]}
               ></Typical></p>
           </div>
