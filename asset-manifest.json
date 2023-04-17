@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/miruolin/static/css/main.44e55aa0.css",
-    "main.js": "/miruolin/static/js/main.b6e71db4.js",
+    "main.css": "/miruolin/static/css/main.0ebfb96b.css",
+    "main.js": "/miruolin/static/js/main.e089d0b8.js",
     "index.html": "/miruolin/index.html",
-    "main.44e55aa0.css.map": "/miruolin/static/css/main.44e55aa0.css.map",
-    "main.b6e71db4.js.map": "/miruolin/static/js/main.b6e71db4.js.map"
+    "main.0ebfb96b.css.map": "/miruolin/static/css/main.0ebfb96b.css.map",
+    "main.e089d0b8.js.map": "/miruolin/static/js/main.e089d0b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.44e55aa0.css",
-    "static/js/main.b6e71db4.js"
+    "static/css/main.0ebfb96b.css",
+    "static/js/main.e089d0b8.js"
   ]
 }
