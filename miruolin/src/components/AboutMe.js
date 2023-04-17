@@ -19,7 +19,7 @@ function AboutMe() {
               Hey there! I'm Miruo Lin, a third-year software engineering student at Western University.
             </p>
             <p>Growing up, I've always enjoyed building stuff from Lego to IKEA furniture. I now apply the same passion to create really cool things with software.</p>
-            <p>Here you can find my skills, projects, and experience. Currently, I'm lookin for a Summer 2023 Internship!</p>
+            <p>Here you can find my skills, projects, and experience. Currently, I'm looking for a Summer 2023 Internship!</p>
             <p>I also love {" "}<Typical
               loop={Infinity}
               wrapper="b"
