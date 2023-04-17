@@ -1,11 +1,24 @@
 @import "./include-media";
 
+video {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-height: 100%;
+}
+
 .header-wrapper {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgb(0, 0, 0, 1));
+    position: relative;
     width: 100%;
     margin-top: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
     h2 {
         font-size: 1rem;

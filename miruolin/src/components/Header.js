@@ -1,6 +1,6 @@
 import React from "react";
 import FadeIn from "react-fade-in";
-
+import background from "../assets/Background.mp4"
 
 import "../styles/Header.scss";
 
@@ -10,6 +10,7 @@ const Header = () => {
     >
       <div className="container">
         <div className="header-wrapper">
+        <video src={background} autoPlay loop muted />
           <FadeIn bottom cascade>
             <div className="heading-wrapper">
               <h1 className="gradientBig">Welcome to</h1>
@@ -19,12 +20,12 @@ const Header = () => {
               3rd Year Software Engineering Student at Western University
             </p>
           </FadeIn>
-            <a
-              className="button"
-              href="https://www.linkedin.com/in/miruo-lin/"
-            >
-              LinkedIn
-            </a>
+          <a
+            className="button"
+            href="https://www.linkedin.com/in/miruo-lin/"
+          >
+            LinkedIn
+          </a>
         </div>
       </div>
     </div>
