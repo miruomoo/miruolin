@@ -1,14 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 
+import Sections from './components/Sections';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <Header></Header>
-    <AboutMe></AboutMe>
-  </React.StrictMode>
+    <Sections>
+      <Header></Header>
+      <AboutMe></AboutMe>
+    </Sections>
+  </React.StrictMode>,
+  document.getElementById("root")
 );

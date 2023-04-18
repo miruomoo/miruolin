@@ -1,0 +1,31 @@
+import React from "react";
+import * as Scroll from "react-scroll";
+import FadeIn from 'react-fade-in';
+
+import "../styles/NavigationBar.scss";
+
+let Link = Scroll.Link;
+
+const NavigationBar = () => {
+  return (
+    <div className="section">
+      <div className="container">
+      <FadeIn transitionDuration="1200">
+        <div className="navbar-wrapper">
+          <div role="button" className="name" tabIndex={0}>
+            Miruo Lin
+          </div>
+          <div className="links-wrapper">
+            <button>
+            <Link to="headShot" spy={true} smooth={true}>
+                About Me
+            </Link>
+            </button>
+          </div>
+        </div>
+        </FadeIn>
+      </div>
+    </div>
+  );
+};
+export default NavigationBar;
