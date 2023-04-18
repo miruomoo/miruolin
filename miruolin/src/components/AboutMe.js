@@ -16,7 +16,7 @@ function AboutMe() {
               <h1 className='gradient'> About Me </h1>
             </FadeIn>
             <p>
-              Hey there! I'm Miruo Lin, a third-year software engineering student at Western University.
+              Welcome to my personal page! My name is Miruo Lin, and I'm a third-year software engineering student at Western University.
             </p>
             <p>Growing up, I've always enjoyed building stuff from Lego to IKEA furniture. I now apply that same passion to create really cool things with software.</p>
             <p>Here you can find my skills, projects, and work experience. Currently, I'm looking for a Summer 2023 Internship!</p>
