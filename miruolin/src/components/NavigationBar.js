@@ -17,8 +17,13 @@ const NavigationBar = () => {
           </div>
           <div className="links-wrapper">
             <button>
-            <Link to="headShot" spy={true} smooth={true}>
+            <Link to="about-section" spy={true} smooth={true}>
                 About Me
+            </Link>
+            </button>
+            <button>
+            <Link to="skills-container" spy={true} smooth={true}>
+                Skills
             </Link>
             </button>
           </div>

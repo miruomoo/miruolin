@@ -1,4 +1,3 @@
-import React from "react";
 import FadeIn from "react-fade-in";
 import background from "../assets/Background.mp4"
 
