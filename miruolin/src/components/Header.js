@@ -1,9 +1,10 @@
+import React, { useContext } from 'react';
 import FadeIn from "react-fade-in";
 import background from "../assets/Background.mp4"
-
 import "../styles/Header.scss";
 
 const Header = () => {
+
   return (
     <div className="section" id="home"
     >

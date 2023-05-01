@@ -5,23 +5,23 @@
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+}
 
-  .skills-container {
+.projects-container {
     width: 70vw;
     margin-top: 0vh;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     h1 {
       font-size: 3rem;
       font-weight: 500;
     }
     h3{
       font-size: 10;
-      font-weight: 300;
+      font-weight: 100;
     }
-    .skills-grid {
+    .projects-grid {
       display: grid;
       grid-template-columns: repeat(10, 1fr);
       margin-top: 0px;
@@ -36,27 +36,5 @@
       @include media(">=tablet", "<desktop") {
         grid-template-columns: 1fr 1fr 1fr;
       }
-  
-      .skill {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        img {
-          filter: contrast(80%);
-          filter: grayscale(100%);
-          height: 4rem;
-          transition: transform 0.3s ease;
-        }
-        img:hover {
-          filter: grayscale(0%);
-          transform: translateY(-10px);
-        }
-        p {
-          font-size: 10px;
-          font-weight: 300;
-        }
       }
     }
-    
-}

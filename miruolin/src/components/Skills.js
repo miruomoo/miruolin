@@ -13,7 +13,7 @@ const Skills=() => {
               <div className="skills-grid">
                 {skillsdata.languages.map((skill, index) => (
                 <div className="skill" key={index}>
-                <img src={skill.img} alt="css"></img>
+                <img src={skill.img} alt="language"></img>
                 <p>{skill.name}</p>
                </div>
                  ))}
@@ -22,7 +22,7 @@ const Skills=() => {
               <div className="skills-grid">
                 {skillsdata.frameworks.map((skill, index) => (
                 <div className="skill" key={index}>
-                <img src={skill.img} alt="css"></img>
+                <img src={skill.img} alt="framework"></img>
                 <p>{skill.name}</p>
                </div>
                  ))}
@@ -31,14 +31,11 @@ const Skills=() => {
               <div className="skills-grid">
                 {skillsdata.tools.map((skill, index) => (
                 <div className="skill" key={index}>
-                <img src={skill.img} alt="css"></img>
+                <img src={skill.img} alt="tool"></img>
                 <p>{skill.name}</p>
                </div>
                  ))}
               </div>
-              <p>Site currently under construction!</p>
-              <br></br>
-              <br></br>
             </FadeIn>
           </div>
         </div>

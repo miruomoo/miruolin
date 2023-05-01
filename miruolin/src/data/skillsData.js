@@ -6,6 +6,7 @@ import csharp from "../data/C#.png"
 import css from "../data/CSS.png"
 import java from "../data/Java.png"
 import typescript from "../data/TypeScript.png"
+import sass from "../data/Sass.png"
 
 import reactPicture from "../data/React.png"
 import angularPicture from "../data/Angular.png"
@@ -52,6 +53,10 @@ export default {
         img: css,
         name: "CSS",
       },
+      {
+        img: sass,
+        name:"Sass"
+      }
     ],
     frameworks:[
       {

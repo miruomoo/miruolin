@@ -7,8 +7,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .name {
+    .mode {
       font-weight: 200;
+      cursor:pointer;
+      &:hover{
+        opacity: 0.6;
+      }
     }
     .links-wrapper {
       button {
