@@ -21,7 +21,7 @@ function AboutMe() {
               Welcome to my personal page! My name is Miruo Lin, and I'm a third-year software engineering student at Western University.
             </p>
             <p>I am super passionate about good design, and I've gained skills in software development through my projects, school, and work experience. You can find all of them on this page!</p>
-            <p>I'm interested in building products to make life easier and more fun. Currently, I'm looking for a Summer 2023 Internship!</p>
+            <p>I'm interested in building products to make life easier and more fun. Currently, I'm looking for a Fall 2023 Internship!</p>
             <p>I also love {" "}<Typical
               loop={Infinity}
               wrapper="b"

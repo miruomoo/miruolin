@@ -1,40 +1,41 @@
 @import "./include-media";
 
 .gradient{
+    font-size: 3rem;
+    font-weight: 500;
     background: linear-gradient(to right,#f3cdff, #3794ff);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.projects-container {
-    width: 70vw;
-    margin-top: 0vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h1 {
-      font-size: 3rem;
-      font-weight: 500;
+.project-container {
+  width: 70vw;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    grid-gap: 30px;
+
+    @include media(">=phone", "<lgphone") {
+      grid-template-columns: 1fr;
     }
-    h3{
-      font-size: 10;
-      font-weight: 100;
+    @include media(">=lgphone", "<tablet") {
+      grid-template-columns: 1fr;
     }
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(10, 1fr);
-      margin-top: 0px;
-      grid-gap: 10px;
-  
-      @include media(">=phone", "<lgphone") {
-        grid-template-columns: 1fr 1fr;
-      }
-      @include media(">=lgphone", "<tablet") {
-        grid-template-columns: 1fr 1fr;
-      }
-      @include media(">=tablet", "<desktop") {
-        grid-template-columns: 1fr 1fr 1fr;
-      }
-      }
+    @include media(">=tablet", "<desktop") {
+      grid-template-columns: 1fr 1fr;
     }
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
