@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/miruolin/static/css/main.72a047d2.css",
-    "main.js": "/miruolin/static/js/main.7f6de8d0.js",
+    "main.css": "/miruolin/static/css/main.21aa3f94.css",
+    "main.js": "/miruolin/static/js/main.019713ce.js",
     "static/media/Background.mp4": "/miruolin/static/media/Background.8520f1c55fdac04cfe09.mp4",
     "static/media/Linux.png": "/miruolin/static/media/Linux.473b5b1180d740ee9dbd.png",
+    "static/media/ECE.png": "/miruolin/static/media/ECE.04c470122e6e79c06eda.png",
     "static/media/React.png": "/miruolin/static/media/React.81ed438b18e24116794d.png",
     "static/media/Sass.png": "/miruolin/static/media/Sass.aa16d6441e3e941f60c1.png",
     "static/media/Python.png": "/miruolin/static/media/Python.82efb64f8698a267f8bf.png",
     "static/media/CSS.png": "/miruolin/static/media/CSS.19c8605d6b2861f5fbe0.png",
     "static/media/Java.png": "/miruolin/static/media/Java.d0be53e356542c3f88d2.png",
     "static/media/C++.png": "/miruolin/static/media/C++.d8d9a2f879d60721c1ac.png",
+    "static/media/notavideogame.JPG": "/miruolin/static/media/notavideogame.30061d4c750cb5cf5e26.JPG",
+    "static/media/Moosic.JPG": "/miruolin/static/media/Moosic.e1dd3adf2bf05aabbacd.JPG",
     "static/media/TypeScript.png": "/miruolin/static/media/TypeScript.1e3902edbe4c3f2970d8.png",
     "static/media/node.png": "/miruolin/static/media/node.abfaef34ea49d0c7cd3c.png",
     "static/media/Angular.png": "/miruolin/static/media/Angular.8cbd3d8b9701ad8e21e7.png",
@@ -19,11 +22,11 @@
     "static/media/Docker.png": "/miruolin/static/media/Docker.900e4877d5954f413357.png",
     "static/media/HTML.png": "/miruolin/static/media/HTML.d50fc7a86b6f3764610b.png",
     "index.html": "/miruolin/index.html",
-    "main.72a047d2.css.map": "/miruolin/static/css/main.72a047d2.css.map",
-    "main.7f6de8d0.js.map": "/miruolin/static/js/main.7f6de8d0.js.map"
+    "main.21aa3f94.css.map": "/miruolin/static/css/main.21aa3f94.css.map",
+    "main.019713ce.js.map": "/miruolin/static/js/main.019713ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.72a047d2.css",
-    "static/js/main.7f6de8d0.js"
+    "static/css/main.21aa3f94.css",
+    "static/js/main.019713ce.js"
   ]
 }
