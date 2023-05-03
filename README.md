@@ -2,3 +2,5 @@ My responsive personal website with recent projects, experience, and contact inf
 
 View Here:
 https://miruomoo.github.io/miruolin
+
+<img src="./screencaps/miruolin.JPG" alt="miruolin" width="80%"/>
