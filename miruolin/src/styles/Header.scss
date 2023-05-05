@@ -9,9 +9,9 @@ video {
     left: 0;
     z-index: -1;
     min-height: 100%;
-    @include media(">lgdesktop") {
-        width: 0;
-    }
+    // @include media(">lgdesktop") {
+    //     width: 0;
+    // }
 }
 
 .header-wrapper {
