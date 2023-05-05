@@ -13,7 +13,7 @@ const Header = () => {
         <video src={background} autoPlay loop muted />
           <FadeIn bottom cascade>
             <div className="heading-wrapper">
-              <h1 className="gradientBig">Hello,</h1>
+              <h1>Hello,</h1>
               <h1>I'm Miruo.</h1>
             </div>
             <p>

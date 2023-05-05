@@ -1,6 +1,6 @@
-import ECE from "../data/ECE.png"
-import Moosic from "../data/Moosic.JPG"
-import notavideogame from "../data/notavideogame.JPG"
+import ECE from "../assets/ECE.png"
+import Moosic from "../assets/Moosic.JPG"
+import notavideogame from "../assets/notavideogame.JPG"
 
 
 export default {

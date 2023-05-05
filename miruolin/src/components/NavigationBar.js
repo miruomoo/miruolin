@@ -33,6 +33,16 @@ const NavigationBar = () => {
                 Projects
             </Link>
             </button>
+            <button>
+            <Link to="work" spy={true} smooth={true}>
+                Experience
+            </Link>
+            </button>
+            <button>
+            <Link to="contact" spy={true} smooth={true}>
+                Contact
+            </Link>
+            </button>
           </div>
         </div>
         </FadeIn>
