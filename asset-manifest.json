@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/miruolin/static/css/main.64814168.css",
-    "main.js": "/miruolin/static/js/main.be0fc171.js",
+    "main.css": "/miruolin/static/css/main.fd8ea3d6.css",
+    "main.js": "/miruolin/static/js/main.11be417a.js",
     "static/media/Background.mp4": "/miruolin/static/media/Background.8520f1c55fdac04cfe09.mp4",
     "static/media/Linux.png": "/miruolin/static/media/Linux.473b5b1180d740ee9dbd.png",
+    "static/media/notavideogame.JPG": "/miruolin/static/media/notavideogame.73ee3234acdf5dd63b6b.JPG",
     "static/media/ECE.png": "/miruolin/static/media/ECE.04c470122e6e79c06eda.png",
     "static/media/React.png": "/miruolin/static/media/React.81ed438b18e24116794d.png",
     "static/media/Sass.png": "/miruolin/static/media/Sass.aa16d6441e3e941f60c1.png",
@@ -11,10 +12,10 @@
     "static/media/CSS.png": "/miruolin/static/media/CSS.19c8605d6b2861f5fbe0.png",
     "static/media/Java.png": "/miruolin/static/media/Java.d0be53e356542c3f88d2.png",
     "static/media/C++.png": "/miruolin/static/media/C++.d8d9a2f879d60721c1ac.png",
-    "static/media/notavideogame.JPG": "/miruolin/static/media/notavideogame.30061d4c750cb5cf5e26.JPG",
     "static/media/Moosic.JPG": "/miruolin/static/media/Moosic.e1dd3adf2bf05aabbacd.JPG",
     "static/media/TypeScript.png": "/miruolin/static/media/TypeScript.1e3902edbe4c3f2970d8.png",
     "static/media/node.png": "/miruolin/static/media/node.abfaef34ea49d0c7cd3c.png",
+    "static/media/HydraGame.png": "/miruolin/static/media/HydraGame.b616b4757cc06066bdea.png",
     "static/media/Angular.png": "/miruolin/static/media/Angular.8cbd3d8b9701ad8e21e7.png",
     "static/media/MySQL.png": "/miruolin/static/media/MySQL.2f2132d4838335ce808e.png",
     "static/media/uoft.jpg": "/miruolin/static/media/uoft.b635976b0cbac07fe889.jpg",
@@ -25,11 +26,11 @@
     "static/media/Plug.png": "/miruolin/static/media/Plug.223bf5477fee022e224c.png",
     "static/media/Linkedin.png": "/miruolin/static/media/Linkedin.02eef13a09e863ea4060.png",
     "index.html": "/miruolin/index.html",
-    "main.64814168.css.map": "/miruolin/static/css/main.64814168.css.map",
-    "main.be0fc171.js.map": "/miruolin/static/js/main.be0fc171.js.map"
+    "main.fd8ea3d6.css.map": "/miruolin/static/css/main.fd8ea3d6.css.map",
+    "main.11be417a.js.map": "/miruolin/static/js/main.11be417a.js.map"
   },
   "entrypoints": [
-    "static/css/main.64814168.css",
-    "static/js/main.be0fc171.js"
+    "static/css/main.fd8ea3d6.css",
+    "static/js/main.11be417a.js"
   ]
 }
