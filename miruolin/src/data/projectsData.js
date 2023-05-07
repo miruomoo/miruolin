@@ -1,6 +1,7 @@
 import ECE from "../assets/ECE.png"
 import Moosic from "../assets/Moosic.JPG"
 import notavideogame from "../assets/notavideogame.JPG"
+import hydragame from "../assets/HydraGame.png"
 
 
 export default {
@@ -12,16 +13,22 @@ export default {
             url: "https://github.com/miruomoo/Course-Outline-Manager",
         },
         {
+            title: "notavideogame",
+            para: "Top-down dungeon crawler game with multiple levels | Unity, C#",
+            image: notavideogame,
+            url: "https://github.com/miruomoo/notavideogame",
+        },
+        {
             title: "Moosic",
-            para: "Music playlist/review app | HTML, CSS, JavaScript, Node.js",
+            para: "Music playlist/review web app | HTML, CSS, JavaScript, Node.js",
             image: Moosic,
             url: "https://github.com/miruomoo/Moosic",
         },
         {
-            title: "notavideogame",
-            para: "Top-down dungeon crawler game | Unity, C#",
-            image: notavideogame,
-            url: "https://github.com/miruomoo/notavideogame",
-        }
+            title: "Hydra Game",
+            para: "Clicking game made using inheritance and OOP | Java, JavaFX",
+            image: hydragame,
+            url: "https://github.com/miruomoo/HydraGame",
+        },
     ],
 };

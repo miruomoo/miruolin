@@ -16,7 +16,7 @@ const Footer = () => {
 
           <a
             className="email-link"
-            href={"mailto:${mlin282@uwo.ca}"}
+            href={"mailto: mlin282@uwo.ca"}
           >
             mlin282@uwo.ca
           </a>
