@@ -3,7 +3,6 @@
 .imageWrapper {
     width: 100%;
     display: flex;
-    
     align-items: flex-start;
     justify-content: center;
     overflow: hidden;
@@ -19,14 +18,17 @@
   }
 
 .picture {
-    height: 32vmin;
+    margin-top: 4vh;
+    height: 28vmin;
     border-radius: 50%;
-    margin-bottom: 0px;
     border: 1vh solid #121212;
+    transition: transform 0.3s ease;
+  }
+  .picture:hover {
+    transform: translateY(-10px);
   }
 
   body {
-    margin: 0;
     padding: 0;
     overflow-y: scroll;
     overflow-x: hidden;
