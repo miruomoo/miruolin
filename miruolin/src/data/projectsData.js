@@ -2,10 +2,17 @@ import ECE from "../assets/ECE.png"
 import Moosic from "../assets/Moosic.JPG"
 import notavideogame from "../assets/notavideogame.JPG"
 import hydragame from "../assets/HydraGame.png"
+import hue from "../assets/Hue.png"
 
 
 export default {
     projects: [
+        {
+            title: "Hue (WIP)",
+            para: "Music taste visual generator built with Spotify API | Next.js, TypeScript",
+            image: hue,
+            url: "https://github.com/miruomoo/Hue",
+        },
         {
             title: "Course Outline Manager",
             para: "Course outline manager for Western's ECE Department | MERN Stack",
