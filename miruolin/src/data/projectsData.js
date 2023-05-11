@@ -3,6 +3,7 @@ import Moosic from "../assets/Moosic.JPG"
 import notavideogame from "../assets/notavideogame.JPG"
 import hydragame from "../assets/HydraGame.png"
 import hue from "../assets/Hue.png"
+import linkboard from "../assets/linkboard.JPG"
 
 
 export default {
@@ -36,6 +37,12 @@ export default {
             para: "Clicking game made using inheritance and OOP | Java, JavaFX",
             image: hydragame,
             url: "https://github.com/miruomoo/HydraGame",
+        },
+        {
+            title: "LinkBoard",
+            para: "Chrome extension to easily store and paste links | JavaScript, Manifest",
+            image: linkboard,
+            url: "https://github.com/miruomoo/LinkBoard",
         },
     ],
 };
