@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miruolin/static/css/main.09e6b36b.css",
-    "main.js": "/miruolin/static/js/main.cca00efd.js",
+    "main.css": "/miruolin/static/css/main.cb09c85d.css",
+    "main.js": "/miruolin/static/js/main.61de5592.js",
     "static/media/Background.mp4": "/miruolin/static/media/Background.8520f1c55fdac04cfe09.mp4",
     "static/media/Linux.png": "/miruolin/static/media/Linux.473b5b1180d740ee9dbd.png",
     "static/media/notavideogame.JPG": "/miruolin/static/media/notavideogame.73ee3234acdf5dd63b6b.JPG",
@@ -14,6 +14,7 @@
     "static/media/Java.png": "/miruolin/static/media/Java.d0be53e356542c3f88d2.png",
     "static/media/C++.png": "/miruolin/static/media/C++.d8d9a2f879d60721c1ac.png",
     "static/media/Moosic.JPG": "/miruolin/static/media/Moosic.e1dd3adf2bf05aabbacd.JPG",
+    "static/media/linkboard.JPG": "/miruolin/static/media/linkboard.07e1b0f01e6b237f79c8.JPG",
     "static/media/TypeScript.png": "/miruolin/static/media/TypeScript.1e3902edbe4c3f2970d8.png",
     "static/media/node.png": "/miruolin/static/media/node.abfaef34ea49d0c7cd3c.png",
     "static/media/HydraGame.png": "/miruolin/static/media/HydraGame.b616b4757cc06066bdea.png",
@@ -27,11 +28,11 @@
     "static/media/Plug.png": "/miruolin/static/media/Plug.223bf5477fee022e224c.png",
     "static/media/Linkedin.png": "/miruolin/static/media/Linkedin.02eef13a09e863ea4060.png",
     "index.html": "/miruolin/index.html",
-    "main.09e6b36b.css.map": "/miruolin/static/css/main.09e6b36b.css.map",
-    "main.cca00efd.js.map": "/miruolin/static/js/main.cca00efd.js.map"
+    "main.cb09c85d.css.map": "/miruolin/static/css/main.cb09c85d.css.map",
+    "main.61de5592.js.map": "/miruolin/static/js/main.61de5592.js.map"
   },
   "entrypoints": [
-    "static/css/main.09e6b36b.css",
-    "static/js/main.cca00efd.js"
+    "static/css/main.cb09c85d.css",
+    "static/js/main.61de5592.js"
   ]
 }
