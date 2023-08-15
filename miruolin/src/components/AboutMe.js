@@ -10,7 +10,7 @@ function AboutMe() {
         <div className="about-section">
           <div className="imageWrapper">
             <FadeIn>
-          <img src={"https://media.licdn.com/dms/image/D5603AQE29UirOGl3pw/profile-displayphoto-shrink_800_800/0/1680465738368?e=1686787200&v=beta&t=-2O30SdpBuSSMinrDl5a5zjbR8RJ3qREwmS6cUB1KuA"} className="picture" alt="headShot"/>
+          <img src={"https://media.licdn.com/dms/image/D5603AQE29UirOGl3pw/profile-displayphoto-shrink_200_200/0/1680465738368?e=1697673600&v=beta&t=KqjGGKr0ZbN8lMCrdG2XDjD4BkYcMbOkuahYcxU49ss"} className="picture" alt="headShot"/>
           </FadeIn>
           </div>
           <div className="content">
