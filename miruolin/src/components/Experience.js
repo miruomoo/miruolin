@@ -16,7 +16,7 @@ const Experience = () => {
             <h1 className="gradient">Work Experience</h1>
           </FadeIn>
           <AliceCarousel 
-          autoPlayInterval={3300}
+          autoPlayInterval={7000}
           infinite
           autoPlay>
             {workInfo.jobs.map((work, index) => (
