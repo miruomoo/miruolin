@@ -17,7 +17,7 @@ const Header = () => {
               <h1>I'm Miruo.</h1>
             </div>
             <p>
-              3rd Year Software Engineering Student at Western University
+              Third-year Software Engineering Student at Western University
             </p>
           </FadeIn>
           <a

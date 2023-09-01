@@ -10,7 +10,7 @@ function AboutMe() {
         <div className="about-section">
           <div className="imageWrapper">
             <FadeIn>
-          <img src={"https://media.licdn.com/dms/image/D5603AQE29UirOGl3pw/profile-displayphoto-shrink_200_200/0/1680465738368?e=1697673600&v=beta&t=KqjGGKr0ZbN8lMCrdG2XDjD4BkYcMbOkuahYcxU49ss"} className="picture" alt="headShot"/>
+          <img src={"https://avatars.githubusercontent.com/u/90869506?v=4"} className="picture" alt="headShot"/>
           </FadeIn>
           </div>
           <div className="content">
@@ -21,7 +21,7 @@ function AboutMe() {
               Welcome to my personal page! My name is Miruo Lin, and I'm a third-year software engineering student at Western University.
             </p>
             <p>I am super passionate about good design, and I've gained skills in software development through my projects, school, and work experience. You can find all of them on this page!</p>
-            <p>I'm interested in building products to make life easier and more fun. Currently, I'm looking for a Fall 2023 Internship!</p>
+            <p>I'm interested in building products to make life easier and more fun. Currently, I'm looking for a Summer 2024 Internship!</p>
             <p>I also love {" "}<Typical
               loop={Infinity}
               wrapper="b"
