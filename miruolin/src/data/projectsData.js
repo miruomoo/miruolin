@@ -4,6 +4,7 @@ import notavideogame from "../assets/notavideogame.JPG"
 import hydragame from "../assets/HydraGame.png"
 import hue from "../assets/Hue.png"
 import linkboard from "../assets/linkboard.JPG"
+import nightkids from "../assets/Nightkids.jpg"
 
 
 export default {
@@ -33,16 +34,16 @@ export default {
             url: "https://github.com/miruomoo/Moosic",
         },
         {
+            title: "NightKids",
+            para: "Digital storefront for car enthusiasts | Angular, TypeScript",
+            image: nightkids,
+            url: "https://github.com/miruomoo/NightKids",
+        },
+        {
             title: "Hydra Game",
             para: "Clicking game made using inheritance and OOP | Java, JavaFX",
             image: hydragame,
             url: "https://github.com/miruomoo/HydraGame",
-        },
-        {
-            title: "LinkBoard",
-            para: "Chrome extension to easily store and paste links | JavaScript, Manifest",
-            image: linkboard,
-            url: "https://github.com/miruomoo/LinkBoard",
         },
     ],
 };

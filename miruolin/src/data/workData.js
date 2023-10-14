@@ -7,15 +7,15 @@ export default {
     {
       img: rbc,
       company: "Royal Bank of Canada",
-      position: "Software Developer",
-      date: "September 2023 - April 2024",
-      para: "Developing applications for the Technology & Operations department using Angular and Java.",
+      position: "Software Engineer Intern",
+      date: "September 2023 - Current",
+      para: "Developing web applications for the Impact Analysis team using Angular and Java. Implemented the Emerald Report feature to process over 2000 datasets daily.",
       link: "https://www.rbc.com/",
     },
     {
       img: uoft,
       company: "University of Toronto",
-      position: "Software Developer",
+      position: "Software Developer Intern",
       date: "May - August 2022",
       para: "Developed programs for the Engineering Outreach department using Python, Arduino, and C++, for over 500 students.",
       link: "https://www.utoronto.ca/",
@@ -23,9 +23,9 @@ export default {
     {
       img: agi,
       company: "AGI Studio",
-      position: "Front-End Developer",
+      position: "Front-End Developer Intern",
       date: "May - August 2023",
-      para: "Built client application and public website using React, increasing leads and inquiries by 30%.",
+      para: "Built an internal client tool and public web application using React, increasing leads and inquiries by 30%.",
       link: "https://www.agistudio.ca/",
     }
   ],
