@@ -18,7 +18,7 @@ const Skills=() => {
                </div>
                  ))}
               </div>
-              <h3>Frameworks:</h3>
+              <h3>Frameworks/Libraries:</h3>
               <div className="skills-grid">
                 {skillsdata.frameworks.map((skill, index) => (
                 <div className="skill" key={index}>
