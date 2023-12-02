@@ -18,6 +18,7 @@ const Header = () => {
             </div>
             <p>
               Third-year Software Engineering Student at Western University
+              <span> 🐎</span>
             </p>
           </FadeIn>
           <a
