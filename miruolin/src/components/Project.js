@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Project.scss";
 
-const Project = ({ heading, paragraph, imagePic, urlLink }) => {
+const Project = ({ heading, paragraph, imagePic, urlLink, websiteLink=null }) => {
   return (
     <div
       className="card"
@@ -23,6 +23,15 @@ const Project = ({ heading, paragraph, imagePic, urlLink }) => {
         >
           GitHub
         </a>
+        {websiteLink && <a
+          href={websiteLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+          style={{marginLeft: "10px"}}
+        >
+          View
+        </a>}
       </div>
     </div>
   );

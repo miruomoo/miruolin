@@ -3,18 +3,25 @@ import Moosic from "../assets/Moosic.JPG"
 import notavideogame from "../assets/notavideogame.JPG"
 import hydragame from "../assets/HydraGame.png"
 import hue from "../assets/Hue.png"
-import linkboard from "../assets/linkboard.JPG"
 import nightkids from "../assets/Nightkids.jpg"
+import moovies from "../assets/moovies.png"
 
 
 export default {
     projects: [
         {
-            title: "Hue (WIP)",
-            para: "Music taste visual generator built with Spotify API | Next.js, TypeScript",
-            image: hue,
+            title: "Moovies",
+            para: "Movie ranking application built with OMDb API | React, JavaScript",
+            image: moovies,
             url: "https://github.com/miruomoo/Hue",
+            website: "https://miruomoo.github.io/moovies/",
         },
+        // {
+        //     title: "Hue (WIP)",
+        //     para: "Music taste visual generator built with Spotify API | Next.js, TypeScript",
+        //     image: hue,
+        //     url: "https://github.com/miruomoo/Hue",
+        // },
         {
             title: "Course Outline Manager",
             para: "Course outline manager for Western's ECE Department | MERN Stack",

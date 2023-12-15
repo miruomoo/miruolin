@@ -23,7 +23,7 @@ export default {
     {
       img: agi,
       company: "AGI Studio",
-      position: "Front-End Developer Intern",
+      position: "Frontend Developer Intern",
       date: "May - August 2023",
       para: "Built an internal client tool and public web application using React, increasing leads and inquiries by 30%.",
       link: "https://www.agistudio.ca/",

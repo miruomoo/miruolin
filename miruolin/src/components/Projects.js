@@ -19,6 +19,7 @@ const Projects=() => {
                   paragraph={project.para}
                   imagePic={project.image}
                   urlLink={project.url}
+                  websiteLink={project.website}
                 ></Project>
                 </FadeIn>
               </div>
