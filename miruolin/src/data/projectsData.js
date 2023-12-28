@@ -13,7 +13,7 @@ export default {
             title: "Moovies",
             para: "Movie ranking application built with OMDb API | React, JavaScript",
             image: moovies,
-            url: "https://github.com/miruomoo/Hue",
+            url: "https://github.com/miruomoo/moovies",
             website: "https://miruomoo.github.io/moovies/",
         },
         // {
