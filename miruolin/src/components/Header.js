@@ -10,7 +10,7 @@ const Header = () => {
     >
       <div className="container">
         <div className="header-wrapper">
-        <video src={background} autoPlay loop muted />
+        <video src={background} autoPlay playsInline loop muted />
           <FadeIn bottom cascade>
             <div className="heading-wrapper">
               <h1>Hello,</h1>
