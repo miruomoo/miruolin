@@ -4,10 +4,9 @@
   text-decoration: none;
 }
 
-.WorkExperienceTextContainer,
-.ProjectCardContainer {
-  background: rgb(0, 0, 0);
-  border: 0.001vh solid rgb(44, 47, 82);
+.WorkExperienceTextContainer {
+  background: linear-gradient(to right,#9765a8, #164e8d);
+  border: 0.1vh solid rgb(63, 63, 63);
   border-radius: 1vh;
   z-index: 1;
   display: flex;
@@ -50,6 +49,73 @@
     font-size: 15px;
     font-weight: 200;
     color: rgb(255, 255, 255);
+  }
+
+  p {
+    @include media(">=phone", "<lgphone") {
+      font-size: 10px;
+      width: 100%;
+      text-align: center;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 12px;
+      width: 100%;
+      text-align: center;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 14px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+.WorkExperienceTextContainer.light {
+  background: linear-gradient(to right,#f5e3fa, #bcd9fa);
+  border: 0.001vh solid rgb(204, 204, 204);
+  border-radius: 1vh;
+  z-index: 1;
+  display: flex;
+  padding: 0;
+  @include media(">=phone", "<desktop"){
+    padding: 10px;
+  }
+  .WorkExperienceImage {
+    position: relative;
+    height: 70%;
+    width: 30%;
+    z-index: 2;
+    border-radius: 1vh;
+    display: block;
+    margin: 30px;
+    @include media(">=phone", "<desktop") {
+      width: 0%;
+      align-items: center;
+      margin: 0px;
+    }
+  }
+  .WorkExperienceTitle {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+  }
+
+  .WorkExperiencePosition {
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+  }
+
+  .WorkExperienceDate {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+  }
+
+  .WorkExperienceText {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
   }
 
   p {

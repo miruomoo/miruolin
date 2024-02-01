@@ -27,6 +27,13 @@
   .picture:hover {
     transform: translateY(-10px);
   }
+  .picture.light{
+    margin-top: 4vh;
+    height: 28vmin;
+    border-radius: 50%;
+    border: 1vh solid #acc9ff;
+    transition: transform 0.3s ease;
+  }
 
   body {
     padding: 0;
@@ -100,6 +107,35 @@
         }
       }
       p {
+        @include media(">=tablet", "<desktop") {
+          text-align: center;
+        }
+      }
+    }
+
+    .content.light{
+      width: 90%;
+      @include media(">=phone", "<lgphone") {
+        width: 100%;
+      }
+      @include media(">=lgphone", "<tablet") {
+        width: 100%;
+      }
+      @include media(">=tablet", "<desktop") {
+        width: 100%;
+      }
+      padding-right: 2rem;
+  
+      h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 3rem;
+        @include media(">=lgphone", "<desktop") {
+          text-align: center;
+        }
+      }
+      p {
+        font-weight: 500;
         @include media(">=tablet", "<desktop") {
           text-align: center;
         }

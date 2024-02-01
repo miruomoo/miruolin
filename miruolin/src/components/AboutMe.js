@@ -3,17 +3,21 @@ import FadeIn from "react-fade-in/lib/FadeIn";
 
 import '../styles/AboutMe.scss'
 
-function AboutMe() {
+function AboutMe({darkMode}) {
   return (
       <div className="section" id="about">
       <div className="container">
         <div className="about-section">
           <div className="imageWrapper">
             <FadeIn>
-          <img src={"https://avatars.githubusercontent.com/u/90869506?v=4"} className="picture" alt="headShot"/>
+          <img src={"https://avatars.githubusercontent.com/u/90869506?v=4"} className={
+            darkMode?'picture':'picture light'
+          } alt="headShot"/>
           </FadeIn>
           </div>
-          <div className="content">
+          <div className={
+            darkMode?'content':'content light'
+          }>
             <FadeIn bottom>
               <h1 className='gradient'> About Me </h1>
             </FadeIn>

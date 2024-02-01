@@ -60,3 +60,57 @@
     }
     
 }
+
+.skills-container.light{
+  width: 70vw;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  h3{
+    font-size: 10;
+    font-weight: 400;
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: 0px;
+    grid-gap: 10px;
+
+    @include media(">=phone", "<lgphone") {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include media(">=lgphone", "<tablet") {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include media(">=tablet", "<desktop") {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .skill {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      img {
+        filter: contrast(80%);
+        filter: grayscale(100%);
+        height: 4rem;
+        transition: transform 0.3s ease;
+      }
+      img:hover {
+        filter: grayscale(0%);
+        transform: translateY(-10px);
+      }
+      p {
+        font-size: 10px;
+        font-weight: 300;
+      }
+    }
+  }
+  
+}

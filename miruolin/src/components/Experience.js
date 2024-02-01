@@ -7,11 +7,13 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
 import "../styles/Experience.scss";
 
-const Experience = () => {
+const Experience = ({darkMode}) => {
   return (
     <div classname="section" id="work">
       <div className="container">
-        <div className="work-wrapper">
+        <div className={
+              darkMode?'work-wrapper':'work-wrapper light'
+            }>
         <FadeIn bottom cascade>
             <h1 className="gradient">Work Experience</h1>
           </FadeIn>
@@ -29,6 +31,7 @@ const Experience = () => {
                 companyLocation={work.location}
                 companyDesc={work.para}
                 companyLink={work.link}
+                darkMode = {darkMode}
               ></WorkCard>
             ))}
             

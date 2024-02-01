@@ -3,12 +3,14 @@ import FadeIn from "react-fade-in/lib/FadeIn";
 import Project from "./Project";
 import data from "../data/projectsData.js";
 
-const Projects=() => {
+const Projects=({darkMode}) => {
     return (
         <div className="section" id="projects">
         <div className="container">
           <div className="project-container">
-           <h1 className="gradient">Projects</h1>
+           <h1 className={
+            darkMode?'gradient':'gradient light'
+           }>Projects</h1>
            <div className="project-grid">
             {data.projects.map((project, index) => (
               <div className="project" key={index}>

@@ -2,11 +2,13 @@ import "../styles/Skills.scss"
 import FadeIn from "react-fade-in/lib/FadeIn";
 import skillsdata from "../data/skillsData";
 
-const Skills=() => {
+const Skills=({darkMode}) => {
     return (
         <div className="section" id="skills">
         <div className="container">
-          <div className="skills-container">
+          <div className={
+            darkMode?'skills-container':'skills-container light'
+          }>
             <FadeIn bottom cascade>
               <h1 className="gradient">Skills</h1>
               <h3>Languages:</h3> 

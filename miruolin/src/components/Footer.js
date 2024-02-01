@@ -4,12 +4,16 @@ import contact from "../data/socialData.js";
 
 import "../styles/Footer.scss";
 
-const Footer = () => {
+const Footer = ({darkMode}) => {
   return (
     <div classname="section" id="contact">
       <div className="container">
-      <h1 className="gradient">Contact</h1>
-        <div className="footer-container">
+      <h1 className={
+        darkMode?'gradient':'gradient light'
+      }>Contact</h1>
+        <div className={
+          darkMode?'footer-container':'footer-container light'
+        }>
           <FadeIn bottom cascade>
             <h2>Let's connect! Hit me up here:</h2>
           </FadeIn>

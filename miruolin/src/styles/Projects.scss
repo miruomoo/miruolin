@@ -9,6 +9,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+.gradient.light{
+  font-size: 3rem;
+  font-weight: 600;
+  background: linear-gradient(to right,#f3cdff, #3794ff);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .project-container {
   width: 70vw;
   margin-top: 2vh;

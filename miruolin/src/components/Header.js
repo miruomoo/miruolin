@@ -1,15 +1,17 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import FadeIn from "react-fade-in";
 import background from "../assets/Background.mp4"
 import "../styles/Header.scss";
 
-const Header = () => {
+const Header = ({darkMode}) => {
 
   return (
     <div className="section" id="home"
     >
       <div className="container">
-        <div className="header-wrapper">
+        <div className={
+          darkMode? 'header-wrapper':'header-wrapper light'
+        }>
         <video src={background} autoPlay playsInline loop muted />
           <FadeIn bottom cascade>
             <div className="heading-wrapper">

@@ -10,10 +10,13 @@ const Work = ({
   companyDate,
   companyDesc,
   companyLink,
+  darkMode
 }) => {
   return (
     <a className="a-link" href={companyLink}>
-      <div className="WorkExperienceTextContainer">
+      <div className={
+        darkMode?'WorkExperienceTextContainer':'WorkExperienceTextContainer light'
+      }>
         <Flex direction="row">
           <img
             className="WorkExperienceImage"
