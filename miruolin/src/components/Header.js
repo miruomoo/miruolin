@@ -23,12 +23,20 @@ const Header = ({darkMode}) => {
               <span> 🐎</span>
             </p>
           </FadeIn>
+          <div className="button-wrapper">
           <a
             className="button"
             href="https://www.linkedin.com/in/miruo-lin/"
           >
             LinkedIn
           </a>
+          <a
+            className="button"
+            href="https://github.com/miruomoo"
+          >
+            GitHub
+          </a>
+          </div>
         </div>
       </div>
     </div>

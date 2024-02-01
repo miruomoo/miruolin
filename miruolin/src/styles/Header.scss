@@ -14,6 +14,10 @@ video {
     }
 }
 
+.button-wrapper {
+    display: flex;
+}
+
 .header-wrapper {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgb(0, 0, 0, 1));
     position: relative;

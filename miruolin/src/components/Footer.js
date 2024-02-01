@@ -21,7 +21,7 @@ const Footer = ({darkMode}) => {
           <a
             className="email-link"
             href={"mailto: mlin282@uwo.ca"}
-          >
+          ><span>📧</span>
             mlin282@uwo.ca
           </a>
           <div className="icons">
