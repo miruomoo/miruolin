@@ -9,7 +9,7 @@ import "../styles/Experience.scss";
 
 const Experience = ({darkMode}) => {
   return (
-    <div classname="section" id="work">
+    <div className="section" id="work">
       <div className="container">
         <div className={
               darkMode?'work-wrapper':'work-wrapper light'

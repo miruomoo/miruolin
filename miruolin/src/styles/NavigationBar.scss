@@ -47,7 +47,7 @@
   align-items: center;
   justify-content: space-between;
   .mode {
-    font-weight: 300;
+    font-weight: 400;
     cursor:pointer;
     &:hover{
       opacity: 0.6;
@@ -55,7 +55,7 @@
   }
   .links-wrapper {
     button {
-      font-weight: 300;
+      font-weight: 400;
       font-size: 16px;
       color: rgb(0, 0, 0);
       text-decoration: none;
