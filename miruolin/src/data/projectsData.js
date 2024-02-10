@@ -1,10 +1,10 @@
-import ECE from "../assets/ECE.png"
-import Moosic from "../assets/Moosic.JPG"
-import notavideogame from "../assets/notavideogame.JPG"
-import hydragame from "../assets/HydraGame.png"
-import hue from "../assets/Hue.png"
-import nightkids from "../assets/Nightkids.jpg"
-import moovies from "../assets/moovies.png"
+import ECE from "../assets/ECE.png";
+import Moosic from "../assets/Moosic.JPG";
+import notavideogame from "../assets/notavideogame.JPG";
+import hydragame from "../assets/HydraGame.png";
+import nightkids from "../assets/Nightkids.jpg";
+import moovies from "../assets/moovies.png";
+import pokercow from "../assets/pokercow.png";
 
 
 export default {
@@ -15,6 +15,12 @@ export default {
             image: moovies,
             url: "https://github.com/miruomoo/moovies",
             website: "https://miruomoo.github.io/moovies/",
+        },
+        {
+            title: "PokerCow (WIP)",
+            para: "Real-time poker game with live chat using WebSockets | React, Node.js, Socket.IO, JavaScript",
+            image: pokercow,
+            url: "https://github.com/miruomoo/pokercow"
         },
         // {
         //     title: "Hue (WIP)",
