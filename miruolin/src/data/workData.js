@@ -9,7 +9,7 @@ export default {
       company: "Royal Bank of Canada",
       position: "Software Engineer Intern",
       date: "September 2023 - Current",
-      para: "Developing web applications for the Impact Analysis team using Angular, TypeScript and Java Spring Boot. Used by over 95,000 RBC employees.",
+      para: "Developing web applications for the Impact Analysis team using Angular, TypeScript and Java Spring Boot. Used by over 10,000 RBC employees.",
       link: "https://www.rbc.com/",
     },
     {

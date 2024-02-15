@@ -10,17 +10,17 @@ import pokercow from "../assets/pokercow.png";
 export default {
     projects: [
         {
+            title: "PokerCow (WIP)",
+            para: "Real-time poker game with live chat using WebSockets | React, Node.js, Socket.IO, JavaScript",
+            image: pokercow,
+            url: "https://github.com/miruomoo/pokercow"
+        },
+        {
             title: "Moovies",
             para: "Movie ranking application built with OMDb API | React, JavaScript",
             image: moovies,
             url: "https://github.com/miruomoo/moovies",
             website: "https://miruomoo.github.io/moovies/",
-        },
-        {
-            title: "PokerCow (WIP)",
-            para: "Real-time poker game with live chat using WebSockets | React, Node.js, Socket.IO, JavaScript",
-            image: pokercow,
-            url: "https://github.com/miruomoo/pokercow"
         },
         // {
         //     title: "Hue (WIP)",
