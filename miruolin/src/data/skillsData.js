@@ -11,6 +11,8 @@ import sass from "../assets/Sass.png"
 import reactPicture from "../assets/React.png"
 import angularPicture from "../assets/Angular.png"
 import nodePicture from "../assets/node.png"
+import spring from "../assets/spring.png"
+import socketIO from "../assets/socketio.png"
 
 import mongoDB from "../assets/MongoDB.png"
 import mySQL from "../assets/MySQL.png"
@@ -70,6 +72,14 @@ export default {
       {
         img: nodePicture,
         name: "Node.js",
+      },
+      {
+        img: socketIO,
+        name: "Socket.IO",
+      },
+      {
+        img: spring,
+        name: "Spring",
       }
     ],
     tools:[

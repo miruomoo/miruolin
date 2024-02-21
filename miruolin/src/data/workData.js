@@ -25,7 +25,7 @@ export default {
       company: "AGI Studio",
       position: "Software Developer Intern",
       date: "May - August 2023",
-      para: "Built an internal client tool and public web application using React, increasing leads and inquiries by 25%.",
+      para: "Built internal client tools and a public web application using React and TypeScript, increasing leads and inquiries by 25%.",
       link: "https://www.agistudio.ca/",
     }
   ],
