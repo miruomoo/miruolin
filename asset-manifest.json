@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/miruolin/static/css/main.de9678c9.css",
-    "main.js": "/miruolin/static/js/main.a571b964.js",
+    "main.js": "/miruolin/static/js/main.7ed8c0a8.js",
     "static/media/Background.mp4": "/miruolin/static/media/Background.8520f1c55fdac04cfe09.mp4",
     "static/media/Linux.png": "/miruolin/static/media/Linux.473b5b1180d740ee9dbd.png",
     "static/media/notavideogame.JPG": "/miruolin/static/media/notavideogame.73ee3234acdf5dd63b6b.JPG",
@@ -14,6 +14,7 @@
     "static/media/RBC.jpg": "/miruolin/static/media/RBC.b25ca6b14cf9b5f9124d.jpg",
     "static/media/Nightkids.jpg": "/miruolin/static/media/Nightkids.23148ce2237a7c3a2d6b.jpg",
     "static/media/CSS.png": "/miruolin/static/media/CSS.19c8605d6b2861f5fbe0.png",
+    "static/media/postgresql.png": "/miruolin/static/media/postgresql.2e3963f9c06453b31f5e.png",
     "static/media/Java.png": "/miruolin/static/media/Java.d0be53e356542c3f88d2.png",
     "static/media/C++.png": "/miruolin/static/media/C++.d8d9a2f879d60721c1ac.png",
     "static/media/Moosic.JPG": "/miruolin/static/media/Moosic.e1dd3adf2bf05aabbacd.JPG",
@@ -34,10 +35,10 @@
     "static/media/Linkedin.png": "/miruolin/static/media/Linkedin.02eef13a09e863ea4060.png",
     "index.html": "/miruolin/index.html",
     "main.de9678c9.css.map": "/miruolin/static/css/main.de9678c9.css.map",
-    "main.a571b964.js.map": "/miruolin/static/js/main.a571b964.js.map"
+    "main.7ed8c0a8.js.map": "/miruolin/static/js/main.7ed8c0a8.js.map"
   },
   "entrypoints": [
     "static/css/main.de9678c9.css",
-    "static/js/main.a571b964.js"
+    "static/js/main.7ed8c0a8.js"
   ]
 }
