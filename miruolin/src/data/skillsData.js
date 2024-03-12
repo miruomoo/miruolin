@@ -13,6 +13,7 @@ import angularPicture from "../assets/Angular.png"
 import nodePicture from "../assets/node.png"
 import spring from "../assets/spring.png"
 import socketIO from "../assets/socketio.png"
+import postgreSQL from "../assets/postgresql.png"
 
 import mongoDB from "../assets/MongoDB.png"
 import mySQL from "../assets/MySQL.png"
@@ -90,6 +91,10 @@ export default {
     {
       img: mySQL,
       name: "MySQL",
+    },
+    {
+      img: postgreSQL,
+      name: "PostgreSQL",
     },
     {
       img: gitImage,
