@@ -20,7 +20,8 @@ const Experience = ({darkMode}) => {
           <AliceCarousel 
           autoPlayInterval={7000}
           infinite
-          autoPlay>
+          autoPlay
+          >
             {workInfo.jobs.map((work, index) => (
               <WorkCard
                 key={index}

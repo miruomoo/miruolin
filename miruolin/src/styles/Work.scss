@@ -4,13 +4,22 @@
   text-decoration: none;
 }
 
+.WorkExperienceTextContainer:hover{
+  background: linear-gradient(to right,#ca88e0, #2375d3);
+}
+
+.WorkExperienceTextContainer.light:hover{
+  background: linear-gradient(to right,#f1c7ff, #abd2ff);
+}
+
 .WorkExperienceTextContainer {
-  background: linear-gradient(to right,#9765a8, #164e8d);
+  background: linear-gradient(to right,#b97cce, #206abe);
   border: 0.1vh solid rgb(63, 63, 63);
   border-radius: 1vh;
   z-index: 1;
   display: flex;
   padding: 0;
+  transition: all 0.5s ease-in-out;
   @include media(">=phone", "<desktop"){
     padding: 10px;
   }

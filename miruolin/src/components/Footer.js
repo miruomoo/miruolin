@@ -39,7 +39,7 @@ const Footer = ({darkMode}) => {
             ))}
           </div>
           <span>
-            Thanks for visiting! - Miruo
+            Made by Miruo with React :)
           </span>
         </div>
       </div>
