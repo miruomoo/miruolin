@@ -21,6 +21,7 @@ import gitImage from "../assets/Git.png"
 import gitHub from "../assets/Github.png"
 import linux from "../assets/Linux.png"
 import docker from "../assets/Docker.png"
+import sql from "../assets/sql.png"
 
 export default {
     languages: [
@@ -41,12 +42,16 @@ export default {
         name: "Java",
       },
       {
-        img: cplusplus,
-        name: "C++",
+        img: sql,
+        name: "SQL",
       },
       {
         img: csharp,
         name: "C#"
+      },
+      {
+        img: cplusplus,
+        name: "C++",
       },
       {
         img: html,
@@ -75,13 +80,13 @@ export default {
         name: "Node.js",
       },
       {
+        img: spring,
+        name: "Spring Boot",
+      },
+      {
         img: socketIO,
         name: "Socket.IO",
       },
-      {
-        img: spring,
-        name: "Spring",
-      }
     ],
     tools:[
     {
