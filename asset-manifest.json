@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miruolin/static/css/main.6686f1be.css",
-    "main.js": "/miruolin/static/js/main.18a52f62.js",
+    "main.css": "/miruolin/static/css/main.a3146369.css",
+    "main.js": "/miruolin/static/js/main.d81d8c05.js",
     "static/media/Background.mp4": "/miruolin/static/media/Background.8520f1c55fdac04cfe09.mp4",
     "static/media/Linux.png": "/miruolin/static/media/Linux.473b5b1180d740ee9dbd.png",
     "static/media/notavideogame.JPG": "/miruolin/static/media/notavideogame.73ee3234acdf5dd63b6b.JPG",
@@ -11,9 +11,9 @@
     "static/media/React.png": "/miruolin/static/media/React.81ed438b18e24116794d.png",
     "static/media/Sass.png": "/miruolin/static/media/Sass.aa16d6441e3e941f60c1.png",
     "static/media/Python.png": "/miruolin/static/media/Python.82efb64f8698a267f8bf.png",
+    "static/media/sql.png": "/miruolin/static/media/sql.85fb38d6773862e917f4.png",
     "static/media/RBC.jpg": "/miruolin/static/media/RBC.b25ca6b14cf9b5f9124d.jpg",
     "static/media/Nightkids.jpg": "/miruolin/static/media/Nightkids.23148ce2237a7c3a2d6b.jpg",
-    "static/media/CSS.png": "/miruolin/static/media/CSS.19c8605d6b2861f5fbe0.png",
     "static/media/postgresql.png": "/miruolin/static/media/postgresql.2e3963f9c06453b31f5e.png",
     "static/media/Java.png": "/miruolin/static/media/Java.d0be53e356542c3f88d2.png",
     "static/media/C++.png": "/miruolin/static/media/C++.d8d9a2f879d60721c1ac.png",
@@ -27,18 +27,18 @@
     "static/media/MySQL.png": "/miruolin/static/media/MySQL.2f2132d4838335ce808e.png",
     "static/media/uoft.jpg": "/miruolin/static/media/uoft.b635976b0cbac07fe889.jpg",
     "static/media/JavaScript.png": "/miruolin/static/media/JavaScript.ac9e504211b46cfb0118.png",
-    "static/media/spring.png": "/miruolin/static/media/spring.c62b2927a17d6fc7e73a.png",
+    "static/media/spring.png": "/miruolin/static/media/spring.94f201ce44348763e6a5.png",
+    "static/media/CSS.png": "/miruolin/static/media/CSS.58dfbebae4a02001b50e.png",
     "static/media/Github.png": "/miruolin/static/media/Github.aabf6c82d3d6513ca051.png",
     "static/media/Docker.png": "/miruolin/static/media/Docker.900e4877d5954f413357.png",
-    "static/media/HTML.png": "/miruolin/static/media/HTML.d50fc7a86b6f3764610b.png",
     "static/media/Plug.png": "/miruolin/static/media/Plug.223bf5477fee022e224c.png",
     "static/media/Linkedin.png": "/miruolin/static/media/Linkedin.02eef13a09e863ea4060.png",
     "index.html": "/miruolin/index.html",
-    "main.6686f1be.css.map": "/miruolin/static/css/main.6686f1be.css.map",
-    "main.18a52f62.js.map": "/miruolin/static/js/main.18a52f62.js.map"
+    "main.a3146369.css.map": "/miruolin/static/css/main.a3146369.css.map",
+    "main.d81d8c05.js.map": "/miruolin/static/js/main.d81d8c05.js.map"
   },
   "entrypoints": [
-    "static/css/main.6686f1be.css",
-    "static/js/main.18a52f62.js"
+    "static/css/main.a3146369.css",
+    "static/js/main.d81d8c05.js"
   ]
 }
