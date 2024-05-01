@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miruolin/static/css/main.e93100ac.css",
-    "main.js": "/miruolin/static/js/main.73d3b392.js",
+    "main.css": "/miruolin/static/css/main.50a5ceaf.css",
+    "main.js": "/miruolin/static/js/main.367a73d4.js",
     "static/media/Background.mp4": "/miruolin/static/media/Background.8520f1c55fdac04cfe09.mp4",
     "static/media/Linux.png": "/miruolin/static/media/Linux.473b5b1180d740ee9dbd.png",
     "static/media/notavideogame.JPG": "/miruolin/static/media/notavideogame.73ee3234acdf5dd63b6b.JPG",
@@ -20,6 +20,7 @@
     "static/media/TypeScript.png": "/miruolin/static/media/TypeScript.1e3902edbe4c3f2970d8.png",
     "static/media/Angular.png": "/miruolin/static/media/Angular.1abfed0441c98421d80e.png",
     "static/media/Java.png": "/miruolin/static/media/Java.284bca3c88f057b9ffdc.png",
+    "static/media/manulife.jpg": "/miruolin/static/media/manulife.ddda5a7a2d206eddc0c0.jpg",
     "static/media/HydraGame.png": "/miruolin/static/media/HydraGame.b616b4757cc06066bdea.png",
     "static/media/agi.jpg": "/miruolin/static/media/agi.b310988f7b85e12a5bbf.jpg",
     "static/media/socketio.png": "/miruolin/static/media/socketio.9ea2abef91c7aeab3aed.png",
@@ -33,11 +34,11 @@
     "static/media/Plug.png": "/miruolin/static/media/Plug.223bf5477fee022e224c.png",
     "static/media/Linkedin.png": "/miruolin/static/media/Linkedin.02eef13a09e863ea4060.png",
     "index.html": "/miruolin/index.html",
-    "main.e93100ac.css.map": "/miruolin/static/css/main.e93100ac.css.map",
-    "main.73d3b392.js.map": "/miruolin/static/js/main.73d3b392.js.map"
+    "main.50a5ceaf.css.map": "/miruolin/static/css/main.50a5ceaf.css.map",
+    "main.367a73d4.js.map": "/miruolin/static/js/main.367a73d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e93100ac.css",
-    "static/js/main.73d3b392.js"
+    "static/css/main.50a5ceaf.css",
+    "static/js/main.367a73d4.js"
   ]
 }
