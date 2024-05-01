@@ -1,16 +1,33 @@
 import uoft from "../assets/uoft.jpg";
 import agi from "../assets/agi.jpg";
 import rbc from "../assets/RBC.jpg";
+import manulife from "../assets/manulife.jpg";
 
 export default {
   jobs: [
     {
+      img: manulife,
+      company: "Manulife",
+      position: "Software Engineer Intern",
+      date: "May 2024 - Current",
+      para: "Developing applications for Global Wealth and Asset Management.",
+      link: "https://www.manulife.com/",
+    },
+    {
       img: rbc,
       company: "Royal Bank of Canada",
       position: "Software Engineer Intern",
-      date: "September 2023 - Current",
+      date: "September 2023 - April 2024",
       para: "Engineered full-stack web applications using Angular, TypeScript and Java Spring Boot. Used by over 1000 RBC mainframe analysts and data engineers.",
       link: "https://www.rbc.com/",
+    },
+    {
+      img: agi,
+      company: "AGI Studio",
+      position: "Software Developer Intern",
+      date: "May - August 2023",
+      para: "Built internal client tools and a public web application from wireframes using React, increasing leads and inquiries by 25%.",
+      link: "https://www.agistudio.ca/",
     },
     {
       img: uoft,
@@ -20,13 +37,5 @@ export default {
       para: "Developed programs for the Engineering Outreach department using Python and C++, generating $25,000 for the faculty in funding.",
       link: "https://www.utoronto.ca/",
     },
-    {
-      img: agi,
-      company: "AGI Studio",
-      position: "Software Developer Intern",
-      date: "May - August 2023",
-      para: "Built internal client tools and a public web application from wireframes using React, increasing leads and inquiries by 25%.",
-      link: "https://www.agistudio.ca/",
-    }
   ],
 };
