@@ -10,7 +10,7 @@ export default {
       company: "Manulife",
       position: "Software Engineer Intern",
       date: "May 2024 - Current",
-      para: "Developing applications for Global Wealth and Asset Management.",
+      para: "Developing full stack applications for the Global Wealth and Asset Management division.",
       link: "https://www.manulife.com/",
     },
     {
@@ -18,7 +18,7 @@ export default {
       company: "Royal Bank of Canada",
       position: "Software Engineer Intern",
       date: "September 2023 - April 2024",
-      para: "Engineered full-stack web applications using Angular, TypeScript and Java Spring Boot. Used by over 1000 RBC mainframe analysts and data engineers.",
+      para: "Engineered multiple web application features using Angular, TypeScript and Java Spring Boot. Used by over 1000 RBC mainframe analysts and data engineers.",
       link: "https://www.rbc.com/",
     },
     {
@@ -34,7 +34,7 @@ export default {
       company: "University of Toronto",
       position: "Software Developer Intern",
       date: "May - August 2022",
-      para: "Developed programs for the Engineering Outreach department using Python and C++, generating $25,000 for the faculty in funding.",
+      para: "Developed artificial intelligence programs for the Engineering Outreach program using Python and C++, generating $25,000 for the faculty in funding.",
       link: "https://www.utoronto.ca/",
     },
   ],
