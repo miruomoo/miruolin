@@ -10,7 +10,7 @@ export default {
       company: "Manulife",
       position: "Software Engineer Intern",
       date: "May 2024 - Current",
-      para: "Developing full stack applications for the Global Wealth and Asset Management division.",
+      para: "Developing client-facing full stack applications for the Global Wealth and Asset Management division, with Java Spring Boot, JavaScript, and React.",
       link: "https://www.manulife.com/",
     },
     {
@@ -18,7 +18,7 @@ export default {
       company: "Royal Bank of Canada",
       position: "Software Engineer Intern",
       date: "September 2023 - April 2024",
-      para: "Engineered multiple web application features using Angular, TypeScript and Java Spring Boot. Used by over 1000 RBC mainframe analysts and data engineers.",
+      para: "Engineered multiple web application features using Angular, TypeScript, and Java Spring Boot. Used by over 1000 RBC mainframe analysts and data engineers.",
       link: "https://www.rbc.com/",
     },
     {
@@ -26,7 +26,7 @@ export default {
       company: "AGI Studio",
       position: "Software Developer Intern",
       date: "May - August 2023",
-      para: "Built internal client tools and a public web application from wireframes using React, increasing leads and inquiries by 25%.",
+      para: "Built internal client tools and a public web application from wireframes using React and Node.js, increasing leads and inquiries by 25%.",
       link: "https://www.agistudio.ca/",
     },
     {
