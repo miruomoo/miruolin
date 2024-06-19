@@ -5,6 +5,7 @@ import hydragame from "../assets/HydraGame.png";
 import nightkids from "../assets/Nightkids.jpg";
 import moovies from "../assets/moovies.png";
 import pokercow from "../assets/pokercow.png";
+import stock from "../assets/stock-predictor.JPG";
 
 
 export default {
@@ -14,6 +15,12 @@ export default {
             para: "Real-time poker game with live chat using WebSockets | React, Node.js, Socket.IO, JavaScript",
             image: pokercow,
             url: "https://github.com/miruomoo/pokercow"
+        },
+        {
+            title: "Stock Predictor",
+            para: "Bitcoin prediction machine learning model trained on Yahoo Finance API | Python, Scikit-learn, Pandas",
+            image: stock,
+            url: "https://github.com/miruomoo/stock-predictor"
         },
         {
             title: "Moovies",
