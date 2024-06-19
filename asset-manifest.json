@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miruolin/static/css/main.50a5ceaf.css",
-    "main.js": "/miruolin/static/js/main.d5f8dddf.js",
+    "main.css": "/miruolin/static/css/main.98b884c0.css",
+    "main.js": "/miruolin/static/js/main.60c4a5c9.js",
     "static/media/Background.mp4": "/miruolin/static/media/Background.8520f1c55fdac04cfe09.mp4",
     "static/media/Linux.png": "/miruolin/static/media/Linux.473b5b1180d740ee9dbd.png",
     "static/media/notavideogame.JPG": "/miruolin/static/media/notavideogame.73ee3234acdf5dd63b6b.JPG",
@@ -15,6 +15,7 @@
     "static/media/Nightkids.jpg": "/miruolin/static/media/Nightkids.23148ce2237a7c3a2d6b.jpg",
     "static/media/postgresql.png": "/miruolin/static/media/postgresql.2e3963f9c06453b31f5e.png",
     "static/media/C++.png": "/miruolin/static/media/C++.d8d9a2f879d60721c1ac.png",
+    "static/media/stock-predictor.JPG": "/miruolin/static/media/stock-predictor.a6835bb2a2352c683af5.JPG",
     "static/media/Moosic.JPG": "/miruolin/static/media/Moosic.e1dd3adf2bf05aabbacd.JPG",
     "static/media/sql.png": "/miruolin/static/media/sql.2c48e4cf1b5144491472.png",
     "static/media/TypeScript.png": "/miruolin/static/media/TypeScript.1e3902edbe4c3f2970d8.png",
@@ -34,11 +35,11 @@
     "static/media/Plug.png": "/miruolin/static/media/Plug.223bf5477fee022e224c.png",
     "static/media/Linkedin.png": "/miruolin/static/media/Linkedin.02eef13a09e863ea4060.png",
     "index.html": "/miruolin/index.html",
-    "main.50a5ceaf.css.map": "/miruolin/static/css/main.50a5ceaf.css.map",
-    "main.d5f8dddf.js.map": "/miruolin/static/js/main.d5f8dddf.js.map"
+    "main.98b884c0.css.map": "/miruolin/static/css/main.98b884c0.css.map",
+    "main.60c4a5c9.js.map": "/miruolin/static/js/main.60c4a5c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.50a5ceaf.css",
-    "static/js/main.d5f8dddf.js"
+    "static/css/main.98b884c0.css",
+    "static/js/main.60c4a5c9.js"
   ]
 }
