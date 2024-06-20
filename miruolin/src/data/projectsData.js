@@ -18,7 +18,7 @@ export default {
         },
         {
             title: "Stock Predictor",
-            para: "Bitcoin prediction machine learning model trained on Yahoo Finance API | Python, Scikit-learn, Pandas",
+            para: "Stock price prediction machine learning model trained on Yahoo Finance API | Python, Scikit-learn, Pandas",
             image: stock,
             url: "https://github.com/miruomoo/stock-predictor"
         },
