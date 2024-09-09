@@ -26,7 +26,7 @@ function AboutMe({darkMode}) {
             </p>
             <p>I am super passionate about good design, and I've learned skills in software development through my projects, school, and work experience. You can find all of them on this page.<span>
             😁</span></p>
-            <p>I'm interested in building products to make life easier and more fun. Currently, I'm looking for an internship position!</p>
+            <p>I'm interested in building products to make life easier and more fun. Currently, I'm looking for a role starting Summer 2025!</p>
             <p>I also love {" "}<Typical
               loop={Infinity}
               wrapper="b"
