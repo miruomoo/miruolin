@@ -11,7 +11,7 @@ export default {
       position: "Software Engineer Intern",
       date: "May 2024 - August 2024",
       para: "Developed full stack applications for over 100,000 users in the Global Wealth and Asset Management division using React, JavaScript, and Java Spring Boot.",
-      link: "https://www.manulife.com/",
+      link: "https://www.manulifeim.com/en",
     },
     {
       img: rbc,
@@ -19,7 +19,7 @@ export default {
       position: "Software Engineer Intern",
       date: "September 2023 - April 2024",
       para: "Engineered and presented multiple web application tools using Angular, TypeScript, and Java Spring Boot. Used by over 1000 RBC mainframe analysts and data engineers.",
-      link: "https://www.rbc.com/",
+      link: "https://www.rbc.com/our-impact/technology/innovations.html",
     },
     {
       img: agi,
