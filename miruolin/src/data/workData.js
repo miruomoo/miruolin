@@ -35,7 +35,7 @@ export default {
       position: "Software Developer Co-op",
       date: "May 2022 - August 2022",
       para: "Developed machine learning models and embedded programs for Engineering Outreach using Python and C++, generating $25,000 in faculty funding.",
-      link: "https://www.utoronto.ca/",
+      link: "https://www.engineering.utoronto.ca/",
     },
   ],
 };
