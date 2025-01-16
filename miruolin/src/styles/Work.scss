@@ -12,6 +12,12 @@
   background: linear-gradient(to right,#f1c7ff, #abd2ff);
 }
 
+.workInfo{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
 .WorkExperienceTextContainer {
   background: linear-gradient(to right,#b97cce, #206abe);
   border: 0.1vh solid rgb(63, 63, 63);
@@ -30,6 +36,18 @@
     border-radius: 1vh;
     display: block;
     margin: 30px;
+    @media (min-width: 1024px) {
+      margin-top: 80px;
+      height: 150px;
+    }
+    @media (min-width: 1100px) {
+      margin-top: 40px;
+      height: 200px;
+    }
+    @media (min-width: 1600px) {
+      margin-top: 30px;
+      height: 200px;
+    }
     @include media(">=phone", "<desktop") {
       width: 0%;
       align-items: center;
@@ -95,6 +113,18 @@
     border-radius: 1vh;
     display: block;
     margin: 30px;
+    @media (min-width: 1024px) {
+      margin-top: 80px;
+      height: 150px;
+    }
+    @media (min-width: 1100px) {
+      margin-top: 40px;
+      height: 200px;
+    }
+    @media (min-width: 1600px) {
+      margin-top: 30px;
+      height: 200px;
+    }
     @include media(">=phone", "<desktop") {
       width: 0%;
       align-items: center;

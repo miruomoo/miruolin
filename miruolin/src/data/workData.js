@@ -10,7 +10,7 @@ export default {
       company: "Manulife",
       position: "Software Engineer Intern",
       date: "May 2024 - August 2024",
-      para: "Developed fullstack applications for over 10 million users in the Global Wealth and Asset Management division using React, JavaScript, GraphQL, and Java Spring Boot.",
+      para: "Developed full-stack applications for over 10 million users in the Global Wealth and Asset Management division using React, JavaScript, GraphQL, and Java Spring Boot.",
       link: "https://www.manulifeim.com/en",
     },
     {
@@ -26,7 +26,7 @@ export default {
       company: "AGI Studio",
       position: "Software Developer Intern",
       date: "May 2023 - August 2023",
-      para: "Built internal client tools and a public web application from wireframes using React and Node.js, increasing leads and inquiries by 25%.",
+      para: "Built internal client tools and a dynamic public web application from wireframes using React, TypeScript, and Node.js. Increased leads and inquiries by 25%, improved user efficiency by 18%.",
       link: "https://www.agistudio.ca/",
     },
     {
@@ -34,7 +34,7 @@ export default {
       company: "University of Toronto",
       position: "Software Developer Co-op",
       date: "May 2022 - August 2022",
-      para: "Developed machine learning models and embedded programs for Engineering Outreach using Python and C++, generating $25,000 in faculty funding.",
+      para: "Developed various machine learning models, computer vision software, and embedded programs for Engineering Outreach using Python and C++, generating $25,000 in faculty funding.",
       link: "https://www.engineering.utoronto.ca/",
     },
   ],

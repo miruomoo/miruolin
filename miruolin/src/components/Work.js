@@ -23,12 +23,14 @@ const Work = ({
             src={imagePic}
             alt="work experience"
           />
+          <div className="workInfo">
           <Stack>
             <p className="WorkExperienceTitle">{companyName}</p>
             <p className="WorkExperiencePosition">{companyPosition}</p>
             <p className="WorkExperienceDate">{companyDate}</p>
             <p className="WorkExperienceText">{companyDesc}</p>
           </Stack>
+          </div>
         </Flex>
       </div>
     </a>
