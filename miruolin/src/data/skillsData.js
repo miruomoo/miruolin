@@ -61,10 +61,10 @@ export default {
         img: css,
         name: "CSS",
       },
-      {
-        img: sass,
-        name:"Sass"
-      }
+      // {
+      //   img: sass,
+      //   name:"Sass"
+      // }
     ],
     frameworks:[
       {
