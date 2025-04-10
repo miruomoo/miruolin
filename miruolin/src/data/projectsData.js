@@ -11,56 +11,50 @@ import stock from "../assets/stock-predictor.JPG";
 export default {
     projects: [
         {
-            title: "PokerCow (WIP)",
-            para: "Real-time poker game with live chat using WebSockets | React, Node.js, Socket.IO, JavaScript",
+            title: "PokerCow - 2024",
+            para: "Real-time poker game using WebSockets | React, Node.js, Socket.IO",
             image: pokercow,
             url: "https://github.com/miruomoo/pokercow"
         },
         {
-            title: "Stock Predictor",
-            para: "Stock price prediction machine learning model trained on Yahoo Finance API | Python, Scikit-learn, Pandas",
+            title: "Stock Predictor - 2024",
+            para: "Stock price machine learning model | Python, Scikit-learn, Pandas",
             image: stock,
             url: "https://github.com/miruomoo/stock-predictor"
         },
         {
-            title: "Moovies",
+            title: "Moovies - 2023",
             para: "Movie ranking application built with OMDb API | React, JavaScript",
             image: moovies,
             url: "https://github.com/miruomoo/moovies",
             website: "https://miruomoo.github.io/moovies/",
         },
-        // {
-        //     title: "Hue (WIP)",
-        //     para: "Music taste visual generator built with Spotify API | Next.js, TypeScript",
-        //     image: hue,
-        //     url: "https://github.com/miruomoo/Hue",
-        // },
         {
-            title: "Course Outline Manager",
+            title: "Course Outline Manager - 2023",
             para: "Course outline manager for Western's ECE Department | MERN Stack",
             image: ECE,
             url: "https://github.com/miruomoo/Course-Outline-Manager",
         },
         {
-            title: "notavideogame",
-            para: "Top-down dungeon crawler game with multiple levels | Unity, C#",
-            image: notavideogame,
-            url: "https://github.com/miruomoo/notavideogame",
-        },
-        {
-            title: "Moosic",
+            title: "Moosic - 2022",
             para: "Music playlist/review web app | HTML, CSS, JavaScript, Node.js",
             image: Moosic,
             url: "https://github.com/miruomoo/Moosic",
         },
         {
-            title: "NightKids",
+            title: "NightKids - 2022",
             para: "Digital storefront for car enthusiasts | Angular, TypeScript",
             image: nightkids,
             url: "https://github.com/miruomoo/NightKids",
         },
         {
-            title: "Hydra Game",
+            title: "notavideogame - 2021",
+            para: "Top-down dungeon crawler game with multiple levels | Unity, C#",
+            image: notavideogame,
+            url: "https://github.com/miruomoo/notavideogame",
+        },
+        {
+            title: "Hydra Game - 2020",
             para: "Clicking game made using inheritance and OOP | Java, JavaFX",
             image: hydragame,
             url: "https://github.com/miruomoo/HydraGame",
