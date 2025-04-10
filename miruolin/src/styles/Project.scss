@@ -1,19 +1,5 @@
 @import "./include-media";
 
-.year {
-  margin: 0;
-  padding: 2px 8px;
-  font-size: 12px;
-  font-weight: 200;
-  color: #333; /* darker text for contrast */
-  background-color: #363636; /* light grey background color */
-  border-radius: 12px;
-  display: inline-block;
-  @include media(">=phone", "<desktop") {
-    font-size: 14px;
-  }
-}
-
 .card {
   border-radius: 20px;
   border-width: 0;
@@ -36,19 +22,17 @@
     transition: all 300ms ease-in-out;
     transform: translate(0, 20px);
     h1 {
-      font-size: 25px;
-      font-weight: 400;
+      font-size: 30px;
+      font-weight: 200;
       color: rgb(255, 255, 255);
-      margin-bottom: 5px;
     }
     p {
       font-size: 15px;
       font-weight: 200;
       color: white;
       margin-bottom: 20px;
-      margin-top: 0px;
       @include media(">=phone", "<desktop") {
-        font-size: 15px;
+        font-size: 16px;
       }
     }
     .btn {

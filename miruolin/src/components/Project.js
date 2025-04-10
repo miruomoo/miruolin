@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Project.scss";
 
-const Project = ({ heading, paragraph, imagePic, urlLink, websiteLink=null, year}) => {
+const Project = ({ heading, paragraph, imagePic, urlLink, websiteLink=null }) => {
   return (
     <div
       className="card"
@@ -14,7 +14,6 @@ const Project = ({ heading, paragraph, imagePic, urlLink, websiteLink=null, year
     >
       <div className="content">
         <h1 className="header">{heading}</h1>
-        <p className="year">{year}</p>
         <p className="text">{paragraph}</p>
         <a
           href={urlLink}

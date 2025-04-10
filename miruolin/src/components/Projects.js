@@ -18,7 +18,6 @@ const Projects=({darkMode}) => {
                 <Project
                   key={index}
                   heading={project.title}
-                  year={project.year}
                   paragraph={project.para}
                   imagePic={project.image}
                   urlLink={project.url}
