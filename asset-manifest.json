@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miruolin/static/css/main.d5299f24.css",
-    "main.js": "/miruolin/static/js/main.e609c60c.js",
+    "main.css": "/miruolin/static/css/main.6dd469d6.css",
+    "main.js": "/miruolin/static/js/main.82531fcb.js",
     "static/media/Background.mp4": "/miruolin/static/media/Background.8520f1c55fdac04cfe09.mp4",
     "static/media/Linux.png": "/miruolin/static/media/Linux.473b5b1180d740ee9dbd.png",
     "static/media/notavideogame.JPG": "/miruolin/static/media/notavideogame.73ee3234acdf5dd63b6b.JPG",
@@ -35,11 +35,11 @@
     "static/media/Plug.png": "/miruolin/static/media/Plug.223bf5477fee022e224c.png",
     "static/media/Linkedin.png": "/miruolin/static/media/Linkedin.02eef13a09e863ea4060.png",
     "index.html": "/miruolin/index.html",
-    "main.d5299f24.css.map": "/miruolin/static/css/main.d5299f24.css.map",
-    "main.e609c60c.js.map": "/miruolin/static/js/main.e609c60c.js.map"
+    "main.6dd469d6.css.map": "/miruolin/static/css/main.6dd469d6.css.map",
+    "main.82531fcb.js.map": "/miruolin/static/js/main.82531fcb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5299f24.css",
-    "static/js/main.e609c60c.js"
+    "static/css/main.6dd469d6.css",
+    "static/js/main.82531fcb.js"
   ]
 }
