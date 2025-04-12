@@ -6,10 +6,16 @@ import nightkids from "../assets/Nightkids.jpg";
 import moovies from "../assets/moovies.png";
 import pokercow from "../assets/pokercow.png";
 import stock from "../assets/stock-predictor.JPG";
+import forest from "../assets/forest.jpg";
 
-
-export default {
+const projectsData = {
     projects: [
+        {
+            title: "ForestAI - 2025",
+            para: "AI portfolio analysis app | Next.js, Node.js, TypeScript, Supabase",
+            image: forest,
+            url: "https://github.com/miruomoo/forest.ai"
+        },
         {
             title: "PokerCow - 2024",
             para: "Real-time poker game using WebSockets | React, Node.js, Socket.IO",
@@ -61,3 +67,5 @@ export default {
         },
     ],
 };
+
+export default projectsData;
