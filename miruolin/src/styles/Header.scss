@@ -74,6 +74,7 @@ video {
         text-align: center;
         overflow: hidden;
         width: 100%;
+        font-weight: 400;
 
         @include media(">=phone", "<lgphone") {
             font-size: 12px;

@@ -12,7 +12,7 @@ const projectsData = {
     projects: [
         {
             title: "ForestAI - 2025",
-            para: "AI portfolio analysis app | Next.js, Node.js, TypeScript, Supabase",
+            para: "AI-powered portfolio analysis app | Next.js, Node.js, TypeScript, Supabase",
             image: forest,
             url: "https://github.com/miruomoo/forest.ai"
         },
