@@ -18,97 +18,107 @@ import postgreSQL from "../assets/postgresql.png"
 import mongoDB from "../assets/MongoDB.png"
 import mySQL from "../assets/MySQL.png"
 import gitImage from "../assets/Git.png"
-import gitHub from "../assets/Github.png"
+// import gitHub from "../assets/Github.png"
 import linux from "../assets/Linux.png"
 import docker from "../assets/Docker.png"
 import sql from "../assets/sql.png"
+import unity from "../assets/Unity.png"
+import mssql from "../assets/MSSQL.png"
 
 
 const skillsData = {
-    languages: [
-      {
-        img: javascript,
-        name: "JavaScript",
-      },
-      {
-        img: typescript,
-        name: "TypeScript",
-      },
-      {
-        img: python,
-        name: "Python",
-      },
-      {
-        img: java,
-        name: "Java",
-      },
-      {
-        img: sql,
-        name: "SQL",
-      },
-      {
-        img: csharp,
-        name: "C#"
-      },
-      {
-        img: cplusplus,
-        name: "C++",
-      },
-      {
-        img: html,
-        name: "HTML",
-      },
-      {
-        img: css,
-        name: "CSS",
-      },
-    ],
-    frameworks:[
-      {
-        img: reactPicture,
-        name: "React",
-      },
-      {
-        img: nextPicture,
-        name: "Next.js"
-      },
-      {
-        img: angularPicture,
-        name: "Angular",
-      },
-      {
-        img: nodePicture,
-        name: "Node.js",
-      },
-      {
-        img: spring,
-        name: "Spring Boot",
-      },
-      {
-        img: socketIO,
-        name: "Socket.IO",
-      },
-    ],
-    tools:[
+  languages: [
+    {
+      img: javascript,
+      name: "JavaScript",
+    },
+    {
+      img: typescript,
+      name: "TypeScript",
+    },
+    {
+      img: python,
+      name: "Python",
+    },
+    {
+      img: java,
+      name: "Java",
+    },
+    {
+      img: sql,
+      name: "SQL",
+    },
+    {
+      img: csharp,
+      name: "C#"
+    },
+    {
+      img: cplusplus,
+      name: "C++",
+    },
+    {
+      img: html,
+      name: "HTML",
+    },
+    {
+      img: css,
+      name: "CSS",
+    },
+  ],
+  frameworks: [
+    {
+      img: reactPicture,
+      name: "React",
+    },
+    {
+      img: nextPicture,
+      name: "Next.js"
+    },
+    {
+      img: angularPicture,
+      name: "Angular",
+    },
+    {
+      img: nodePicture,
+      name: "Node.js",
+    },
+    {
+      img: spring,
+      name: "Spring Boot",
+    },
+    {
+      img: socketIO,
+      name: "Socket.IO",
+    },
+  ],
+  tools: [
+    {
+      img: gitImage,
+      name: "Git",
+    },
     {
       img: mongoDB,
       name: "MongoDB",
-    },
-    {
-      img: mySQL,
-      name: "MySQL",
     },
     {
       img: postgreSQL,
       name: "PostgreSQL",
     },
     {
-      img: gitImage,
-      name: "Git",
+      img: mySQL,
+      name: "MySQL",
     },
     {
-      img: gitHub,
-      name: "GitHub",
+      img: mssql,
+      name: "MSSQL"
+    },
+    // {
+    //   img: gitHub,
+    //   name: "GitHub",
+    // },
+    {
+      img: unity,
+      name: "Unity",
     },
     {
       img: linux,
@@ -119,6 +129,6 @@ const skillsData = {
       name: "Docker"
     }
   ]
-  };
+};
 
-  export default skillsData;
+export default skillsData;
