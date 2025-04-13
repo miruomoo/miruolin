@@ -6,9 +6,9 @@ import csharp from "../assets/C#.png"
 import css from "../assets/CSS.png"
 import java from "../assets/Java.png"
 import typescript from "../assets/TypeScript.png"
-import sass from "../assets/Sass.png"
 
 import reactPicture from "../assets/React.png"
+import nextPicture from "../assets/nextjs.png"
 import angularPicture from "../assets/Angular.png"
 import nodePicture from "../assets/node.png"
 import spring from "../assets/spring.png"
@@ -23,7 +23,8 @@ import linux from "../assets/Linux.png"
 import docker from "../assets/Docker.png"
 import sql from "../assets/sql.png"
 
-export default {
+
+const skillsData = {
     languages: [
       {
         img: javascript,
@@ -61,15 +62,15 @@ export default {
         img: css,
         name: "CSS",
       },
-      // {
-      //   img: sass,
-      //   name:"Sass"
-      // }
     ],
     frameworks:[
       {
         img: reactPicture,
         name: "React",
+      },
+      {
+        img: nextPicture,
+        name: "Next.js"
       },
       {
         img: angularPicture,
@@ -119,3 +120,5 @@ export default {
     }
   ]
   };
+
+  export default skillsData;
