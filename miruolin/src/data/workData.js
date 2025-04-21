@@ -34,7 +34,7 @@ export default {
       company: "University of Toronto",
       position: "Software Developer Co-op",
       date: "May 2022 - August 2022",
-      para: "Developed various machine learning models, computer vision software, and embedded programs for Engineering Outreach using Python and C++, generating $25,000 in faculty funding.",
+      para: "Developed an AI virtual assistant, computer vision software, and embedded programs using Python and C++, securing $25,000 in faculty funding for Engineering Outreach.",
       link: "https://www.engineering.utoronto.ca/",
     },
   ],
