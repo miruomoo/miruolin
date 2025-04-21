@@ -19,7 +19,7 @@ const Header = ({darkMode}) => {
               <h1>I'm Miruo.</h1>
             </div>
             <p>
-              Software Engineering Student at Western University
+              Software Engineering Student @ Western University
               <span> 🐎</span>
             </p>
           </FadeIn>
