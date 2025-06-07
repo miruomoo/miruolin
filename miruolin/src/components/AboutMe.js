@@ -22,11 +22,11 @@ function AboutMe({darkMode}) {
               <h1 className='gradient'> About Me </h1>
             </FadeIn>
             <p>
-              Welcome to my personal page! My name is Miruo Lin, and I'm a software engineering student at Western University.
+              Welcome to my personal page! My name is Miruo Lin, and I'm currently a full-stack software engineer at Manulife.
             </p>
-            <p>I am super passionate about good design, and I've learned skills in software development through my projects, school, and work experience. You can find all of them on this page.<span>
+            <p>I am super passionate about good design, and I've learned skills in software development through work, projects, and university. You can find all of them on this page.<span>
             😁</span></p>
-            <p>I'm interested in building products to make life easier and more fun. Currently, I'm looking for a role starting Summer 2025!</p>
+            <p>I'm interested in building products to make life easier and more fun. Feel free to contact me!</p>
             <p>I also love {" "}<Typical
               loop={Infinity}
               wrapper="b"
