@@ -17,7 +17,7 @@ export default {
       img: manulife,
       company: "Manulife",
       position: "Software Engineer Intern",
-      date: "May 2024 - August 2024",
+      date: "May 2024 - April 2025",
       para: "Developed full-stack applications for over 10 million users in the Global Wealth and Asset Management division using React, JavaScript, GraphQL, and Java Spring Boot.",
       link: "https://www.manulifeim.com/en",
     },
