@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/miruolin/static/css/main.2217752f.css",
-    "main.js": "/miruolin/static/js/main.e3396206.js",
+    "main.js": "/miruolin/static/js/main.8b69eb1b.js",
     "static/media/Background.mp4": "/miruolin/static/media/Background.8520f1c55fdac04cfe09.mp4",
     "static/media/Linux.png": "/miruolin/static/media/Linux.473b5b1180d740ee9dbd.png",
     "static/media/notavideogame.JPG": "/miruolin/static/media/notavideogame.73ee3234acdf5dd63b6b.JPG",
@@ -37,10 +37,10 @@
     "static/media/Linkedin.png": "/miruolin/static/media/Linkedin.02eef13a09e863ea4060.png",
     "index.html": "/miruolin/index.html",
     "main.2217752f.css.map": "/miruolin/static/css/main.2217752f.css.map",
-    "main.e3396206.js.map": "/miruolin/static/js/main.e3396206.js.map"
+    "main.8b69eb1b.js.map": "/miruolin/static/js/main.8b69eb1b.js.map"
   },
   "entrypoints": [
     "static/css/main.2217752f.css",
-    "static/js/main.e3396206.js"
+    "static/js/main.8b69eb1b.js"
   ]
 }
