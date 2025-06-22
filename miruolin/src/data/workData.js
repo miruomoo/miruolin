@@ -34,7 +34,7 @@ export default {
       company: "AGI Studio",
       position: "Software Developer Intern",
       date: "May 2023 - August 2023",
-      para: "Built internal client tools and a dynamic public web application from wireframes using React, TypeScript, and Node.js. Increased leads and inquiries by 25%, improved user efficiency by 18%.",
+      para: "Built internal client tools and a dynamic public web application from wireframes using React, TypeScript, and Node.js. Increased leads and inquiries by 25%, improved user efficiency by 2x.",
       link: "https://www.agistudio.ca/",
     },
     {
