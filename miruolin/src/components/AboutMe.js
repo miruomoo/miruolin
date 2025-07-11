@@ -9,17 +9,19 @@ const TypingAnimation = React.memo(() => {
               loop={Infinity}
               wrapper="b"
               steps={[
-                "video games",
+                "Jujutsu Kaisen",
                 3000,
-                "drawing",
+                "painting landscapes",
                 3000,
-                "cars",
+                "JDM cars",
                 3000,
-                "film",
+                "video editing",
                 3000,
-                "music",
+                "Cyberpunk 2077",
                 3000,
-                "ramen",
+                "Denis Villeneuve movies",
+                3000,
+                "music production",
                 3000
               ]}
               ></Typical>
