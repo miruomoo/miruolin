@@ -1,7 +1,29 @@
 import Typical from 'react-typical';
 import FadeIn from "react-fade-in/lib/FadeIn";
+import React from 'react';
 
 import '../styles/AboutMe.scss'
+
+const TypingAnimation = React.memo(() => {
+  return <Typical
+              loop={Infinity}
+              wrapper="b"
+              steps={[
+                "video games",
+                3000,
+                "drawing",
+                3000,
+                "cars",
+                3000,
+                "film",
+                3000,
+                "music",
+                3000,
+                "ramen",
+                3000
+              ]}
+              ></Typical>
+},(props, prevProp) => true);
 
 function AboutMe({darkMode}) {
   return (
@@ -27,24 +49,9 @@ function AboutMe({darkMode}) {
             <p>I am super passionate about good design, and I've learned skills in software development through work, projects, and university. You can find all of them on this page.<span>
             😁</span></p>
             <p>I'm interested in building products to make life easier and more fun. Feel free to contact me!</p>
-            <p>I also love {" "}<Typical
-              loop={Infinity}
-              wrapper="b"
-              steps={[
-                "video games",
-                3000,
-                "drawing",
-                3000,
-                "cars",
-                3000,
-                "film",
-                3000,
-                "music",
-                3000,
-                "ramen",
-                3000
-              ]}
-              ></Typical></p>
+            <p>I also love {" "}
+              <TypingAnimation />
+              </p>
           </div>
         </div>
       </div>
