@@ -3,7 +3,7 @@ import github from "../assets/Github.png"
 import spotify from "../assets/Spotify.png"
 import plug from "../assets/Plug.png"
 
-export default {
+const socialData = {
   social: [
     {
       img: github,
@@ -23,3 +23,5 @@ export default {
     },
   ],
 };
+
+export default socialData;

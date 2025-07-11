@@ -2,6 +2,7 @@ import React from "react";
 import * as Scroll from "react-scroll";
 import FadeIn from 'react-fade-in';
 import "../index.css";
+import { Sun, Moon } from "lucide-react";
 
 import "../styles/NavigationBar.scss";
 
@@ -49,9 +50,9 @@ const NavigationBar = ({ darkMode, setDarkMode }) => {
                   Contact
                 </Link>
               </button>
-              {darkMode&&<button onClick={handleSetDarkMode}>Light Mode
+              {darkMode&&<button onClick={handleSetDarkMode}><Sun size="25" strokeWidth={1.5} className="icon"></Sun>
               </button>}
-              {!darkMode&&<button onClick={handleSetDarkMode}>Dark Mode
+              {!darkMode&&<button onClick={handleSetDarkMode}><Moon size="25" strokeWidth={1.5} className="icon"></Moon>
               </button>}
             </div>
           </div>

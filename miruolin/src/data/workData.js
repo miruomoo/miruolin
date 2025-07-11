@@ -3,7 +3,7 @@ import agi from "../assets/agi.jpg";
 import rbc from "../assets/RBC.jpg";
 import manulife from "../assets/manulife.jpg";
 
-export default {
+const workData = {
   jobs: [
     {
       img: manulife,
@@ -47,3 +47,5 @@ export default {
     },
   ],
 };
+
+export default workData;
