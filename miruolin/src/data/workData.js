@@ -5,14 +5,14 @@ import manulife from "../assets/manulife.jpg";
 
 const workData = {
   jobs: [
-    {
-      img: manulife,
-      company: "Manulife",
-      position: "Software Engineer",
-      date: "June 2025 - Present",
-      para: "Developing Generative AI solutions at scale for over 100,000 daily users by leveraging LLMs, FastAPI, and React to improve operational efficiency.",
-      link: "https://www.manulife.com/en/about/ai.html",
-    },
+    // {
+    //   img: manulife,
+    //   company: "Manulife",
+    //   position: "Software Engineer",
+    //   date: "June 2025 - Present",
+    //   para: "Developing Generative AI solutions at scale for over 100,000 daily users by leveraging LLMs, FastAPI, and React to improve operational efficiency.",
+    //   link: "https://www.manulife.com/en/about/ai.html",
+    // },
     {
       img: manulife,
       company: "Manulife",

@@ -48,14 +48,14 @@ const skillsData = {
       img: sql,
       name: "SQL",
     },
-    {
-      img: csharp,
-      name: "C#"
-    },
-    {
-      img: cplusplus,
-      name: "C++",
-    },
+    // {
+    //   img: csharp,
+    //   name: "C#"
+    // },
+    // {
+    //   img: cplusplus,
+    //   name: "C++",
+    // },
     {
       img: html,
       name: "HTML",
@@ -86,10 +86,10 @@ const skillsData = {
       img: spring,
       name: "Spring Boot",
     },
-    {
-      img: socketIO,
-      name: "Socket.IO",
-    },
+    // {
+    //   img: socketIO,
+    //   name: "Socket.IO",
+    // },
   ],
   tools: [
     {
@@ -120,10 +120,10 @@ const skillsData = {
       img: unity,
       name: "Unity",
     },
-    {
-      img: linux,
-      name: "Linux",
-    },
+    // {
+    //   img: linux,
+    //   name: "Linux",
+    // },
     {
       img: docker,
       name: "Docker"
