@@ -12,8 +12,8 @@ const Project = ({ heading, paragraph, imagePic, urlLink, websiteLink=null }) =>
       scale={1.05}
       transitionSpeed={2000}
       glareEnable={true}
-      glareMaxOpacity={0.3}
-      glareColor="linear-gradient(135deg, #3794ff, #bea0c7)"
+      glareMaxOpacity={0.2}
+      glareColor="#bea0c7"
       glarePosition="all"
       glareBorderRadius="20px"
     >
