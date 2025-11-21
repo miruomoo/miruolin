@@ -1,12 +1,21 @@
 import React from "react";
 import FadeIn from "react-fade-in/lib/FadeIn";
 import contact from "../data/socialData.js";
+import Aurora from "./Aurora";
 
 import "../styles/Footer.scss";
 
 const Footer = ({darkMode}) => {
   return (
     <div classname="section" id="contact">
+      <div className="aurora-wrapper">
+        <Aurora
+          colorStops={["#3794ff", "#FF94B4", "#bea0c7"]}
+          blend={0.5}
+          amplitude={1.0}
+          speed={0.5}
+        />
+      </div>
       <div className="container">
       <h1 className={
         darkMode?'gradient':'gradient light'
