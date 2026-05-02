@@ -1,5 +1,5 @@
 import React from "react";
-import FadeIn from "react-fade-in/lib/FadeIn";
+import { Fade } from "react-awesome-reveal";
 import workInfo from "../data/workData.js";
 import WorkCard from "./Work.js";
 import AliceCarousel from "react-alice-carousel";
@@ -14,9 +14,9 @@ const Experience = ({darkMode}) => {
         <div className={
               darkMode?'work-wrapper':'work-wrapper light'
             }>
-        <FadeIn bottom cascade>
+        <Fade direction="up" cascade>
             <h1 className="gradient">Work Experience</h1>
-          </FadeIn>
+          </Fade>
           <AliceCarousel 
           autoPlayInterval={7000}
           infinite

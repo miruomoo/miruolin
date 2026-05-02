@@ -1,5 +1,5 @@
 import "../styles/Skills.scss"
-import FadeIn from "react-fade-in/lib/FadeIn";
+import { Fade } from "react-awesome-reveal";
 import skillsdata from "../data/skillsData";
 
 const Skills=({darkMode}) => {
@@ -9,7 +9,7 @@ const Skills=({darkMode}) => {
           <div className={
             darkMode?'skills-container':'skills-container light'
           }>
-            <FadeIn bottom cascade>
+            <Fade direction="up" cascade>
               <h1 className="gradient">Skills</h1>
               <h3>Languages:</h3> 
               <div className="skills-grid">
@@ -38,7 +38,7 @@ const Skills=({darkMode}) => {
                </div>
                  ))}
               </div>
-            </FadeIn>
+            </Fade>
           </div>
         </div>
       </div>

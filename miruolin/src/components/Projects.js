@@ -1,5 +1,5 @@
 import "../styles/Projects.scss"
-import FadeIn from "react-fade-in/lib/FadeIn";
+import { Fade } from "react-awesome-reveal";
 import Project from "./Project";
 import data from "../data/projectsData.js";
 
@@ -14,7 +14,7 @@ const Projects=({darkMode}) => {
            <div className="project-grid">
             {data.projects.map((project, index) => (
               <div className="project" key={index}>
-                <FadeIn bottom cascade>
+                <Fade direction="up" cascade>
                 <Project
                   key={index}
                   heading={project.title}
@@ -23,7 +23,7 @@ const Projects=({darkMode}) => {
                   urlLink={project.url}
                   websiteLink={project.website}
                 ></Project>
-                </FadeIn>
+                </Fade>
               </div>
             ))}
           </div>

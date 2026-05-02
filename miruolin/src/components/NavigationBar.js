@@ -1,6 +1,6 @@
 import React from "react";
 import * as Scroll from "react-scroll";
-import FadeIn from 'react-fade-in';
+import { Fade } from 'react-awesome-reveal';
 import "../index.css";
 import { Sun, Moon } from "lucide-react";
 
@@ -17,7 +17,7 @@ const NavigationBar = ({ darkMode, setDarkMode }) => {
   return (
     <div className="section">
       <div className="container">
-        <FadeIn transitionDuration="1200">
+        <Fade duration={1200}>
           <div className={
             darkMode? 'navbar-wrapper':'navbar-wrapper light'
           }>
@@ -56,7 +56,7 @@ const NavigationBar = ({ darkMode, setDarkMode }) => {
               </button>}
             </div>
           </div>
-        </FadeIn>
+        </Fade>
       </div>
     </div>
   );

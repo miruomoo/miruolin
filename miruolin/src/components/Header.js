@@ -1,5 +1,5 @@
 import React from 'react';
-import FadeIn from "react-fade-in";
+import { Fade } from "react-awesome-reveal";
 import background from "../assets/Background.mp4"
 import "../styles/Header.scss";
 
@@ -13,7 +13,7 @@ const Header = ({darkMode}) => {
           darkMode? 'header-wrapper':'header-wrapper light'
         }>
         <video src={background} autoPlay playsInline loop muted />
-          <FadeIn bottom cascade>
+          <Fade direction="up" cascade>
             <div className="heading-wrapper">
               <h1>Hello,</h1>
               <h1>I'm Miruo.</h1>
@@ -22,7 +22,7 @@ const Header = ({darkMode}) => {
               a Western Software Engineering Graduate
               <span> 🐎</span>
             </p>
-          </FadeIn>
+          </Fade>
           <div className="button-wrapper">
           <a
             className="button"

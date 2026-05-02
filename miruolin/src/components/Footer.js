@@ -1,5 +1,5 @@
 import React from "react";
-import FadeIn from "react-fade-in/lib/FadeIn";
+import { Fade } from "react-awesome-reveal";
 import contact from "../data/socialData.js";
 import Aurora from "./Aurora";
 
@@ -23,9 +23,9 @@ const Footer = ({darkMode}) => {
         <div className={
           darkMode?'footer-container':'footer-container light'
         }>
-          <FadeIn bottom cascade>
+          <Fade direction="up" cascade>
             <h2>Let's connect! Hit me up here:</h2>
-          </FadeIn>
+          </Fade>
 
           <a
             className="email-link"

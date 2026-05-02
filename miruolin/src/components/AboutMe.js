@@ -1,14 +1,14 @@
-import Typical from 'react-typical';
-import FadeIn from "react-fade-in/lib/FadeIn";
+import { TypeAnimation } from 'react-type-animation';
+import { Fade } from "react-awesome-reveal";
 import React from 'react';
 
 import '../styles/AboutMe.scss'
 
 const TypingAnimation = React.memo(() => {
-  return <Typical
-              loop={Infinity}
+  return <TypeAnimation
+              repeat={Infinity}
               wrapper="b"
-              steps={[
+              sequence={[
                 "Jujutsu Kaisen",
                 3000,
                 "painting landscapes",
@@ -24,7 +24,7 @@ const TypingAnimation = React.memo(() => {
                 "music production",
                 3000
               ]}
-              ></Typical>
+              ></TypeAnimation>
 },(props, prevProp) => true);
 
 function AboutMe({darkMode}) {
@@ -33,18 +33,18 @@ function AboutMe({darkMode}) {
       <div className="container">
         <div className="about-section">
           <div className="imageWrapper">
-            <FadeIn>
+            <Fade>
           <img src={"https://avatars.githubusercontent.com/u/90869506?v=4"} className={
             darkMode?'picture':'picture light'
           } alt="headShot"/>
-          </FadeIn>
+          </Fade>
           </div>
           <div className={
             darkMode?'content':'content light'
           }>
-            <FadeIn bottom>
+            <Fade direction="up">
               <h1 className='gradient'> About Me </h1>
-            </FadeIn>
+            </Fade>
             <p>
               Welcome to my personal page! My name is Miruo Lin, and I'm currently a software engineering graduate.
             </p>
