@@ -1,4 +1,4 @@
-@import "./include-media";
+@import "./breakpoints";
 
 .aurora-wrapper {
   position: absolute;
@@ -53,16 +53,16 @@
     overflow: hidden;
     align-items: center;
 
-    @include media(">=phone", "<lgphone") {
+    @include phone-only {
       align-items: center;
       padding-left: 2rem;
     }
-    @include media(">=lgphone", "<tablet") {
+    @include lgphone-only {
       font-size: 14px;
       align-items: center;
       padding-left: 2rem;
     }
-    @include media(">=tablet", "<desktop") {
+    @include tablet-only {
       font-size: 1.2rem;
     }
   }
@@ -83,7 +83,7 @@
     flex-direction: row;
     justify-content: center;
     padding-left: 150px;
-    @include media (">=phone", "<lgphone"){
+    @include phone-only {
       padding-left: 115px;
       padding-right: 0;
       margin-right: 0;
@@ -93,7 +93,7 @@
     img {
       height: 2rem;
       margin: 10px;
-      @include media (">=phone", "<lgphone"){
+      @include phone-only {
         height: 1.5rem;
        }
     }
@@ -127,16 +127,16 @@
     overflow: hidden;
     align-items: center;
 
-    @include media(">=phone", "<lgphone") {
+    @include phone-only {
       align-items: center;
       padding-left: 2rem;
     }
-    @include media(">=lgphone", "<tablet") {
+    @include lgphone-only {
       font-size: 14px;
       align-items: center;
       padding-left: 2rem;
     }
-    @include media(">=tablet", "<desktop") {
+    @include tablet-only {
       font-size: 1.2rem;
     }
   }
@@ -157,7 +157,7 @@
     flex-direction: row;
     justify-content: center;
     padding-left: 150px;
-    @include media (">=phone", "<lgphone"){
+    @include phone-only {
       padding-left: 115px;
       padding-right: 0;
       margin-right: 0;
@@ -167,7 +167,7 @@
     img {
       height: 2rem;
       margin: 10px;
-      @include media (">=phone", "<lgphone"){
+      @include phone-only {
         height: 1.5rem;
        }
     }

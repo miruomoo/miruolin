@@ -1,4 +1,4 @@
-@import "include-media";
+@import "./breakpoints";
 
 .imageWrapper {
     width: 100%;
@@ -6,13 +6,13 @@
     align-items: flex-start;
     justify-content: center;
     overflow: hidden;
-    @include media(">=phone", "<lgphone") {
+    @include phone-only {
       width: 100%;
     }
-    @include media(">=lgphone", "<tablet") {
+    @include lgphone-only {
       width: 100%;
     }
-    @include media(">=tablet", "<desktop") {
+    @include tablet-only {
       width: 100%;
     }
   }
@@ -68,17 +68,17 @@
     margin-top: 5vh;
     display: flex;
     justify-content: space-between;
-    @include media(">=phone", "<lgphone") {
+    @include phone-only {
       flex-direction: column-reverse;
       width: 70vw;
       
     }
-    @include media(">=lgphone", "<tablet") {
+    @include lgphone-only {
       flex-direction: column-reverse;
       width: 70vw;
     
     }
-    @include media(">=tablet", "<desktop") {
+    @include tablet-only {
       flex-direction: column-reverse;
       align-items: center;
       width: 70vw;
@@ -87,13 +87,13 @@
   
     .content {
       width: 90%;
-      @include media(">=phone", "<lgphone") {
+      @include phone-only {
         width: 100%;
       }
-      @include media(">=lgphone", "<tablet") {
+      @include lgphone-only {
         width: 100%;
       }
-      @include media(">=tablet", "<desktop") {
+      @include tablet-only {
         width: 100%;
       }
       padding-right: 2rem;
@@ -102,12 +102,12 @@
         font-size: 3rem;
         font-weight: 500;
         line-height: 3rem;
-        @include media(">=lgphone", "<desktop") {
+        @include lgphone-to-desktop {
           text-align: center;
         }
       }
       p {
-        @include media(">=tablet", "<desktop") {
+        @include tablet-only {
           text-align: center;
         }
       }
@@ -115,13 +115,13 @@
 
     .content.light{
       width: 90%;
-      @include media(">=phone", "<lgphone") {
+      @include phone-only {
         width: 100%;
       }
-      @include media(">=lgphone", "<tablet") {
+      @include lgphone-only {
         width: 100%;
       }
-      @include media(">=tablet", "<desktop") {
+      @include tablet-only {
         width: 100%;
       }
       padding-right: 2rem;
@@ -130,13 +130,13 @@
         font-size: 3rem;
         font-weight: 600;
         line-height: 3rem;
-        @include media(">=lgphone", "<desktop") {
+        @include lgphone-to-desktop {
           text-align: center;
         }
       }
       p {
         font-weight: 500;
-        @include media(">=tablet", "<desktop") {
+        @include tablet-only {
           text-align: center;
         }
       }

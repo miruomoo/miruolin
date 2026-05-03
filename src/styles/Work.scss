@@ -1,4 +1,4 @@
-@import "./include-media";
+@import "./breakpoints";
 
 .a-link {
   text-decoration: none;
@@ -26,7 +26,7 @@
   display: flex;
   padding: 0;
   transition: all 0.5s ease-in-out;
-  @include media(">=phone", "<desktop"){
+  @include below-desktop {
     padding: 10px;
   }
   .WorkExperienceImage {
@@ -48,7 +48,7 @@
       margin-top: 30px;
       height: 200px;
     }
-    @include media(">=phone", "<desktop") {
+    @include below-desktop {
       width: 0%;
       align-items: center;
       margin: 0px;
@@ -78,17 +78,17 @@
   }
 
   p {
-    @include media(">=phone", "<lgphone") {
+    @include phone-only {
       font-size: 10px;
       width: 100%;
       text-align: center;
     }
-    @include media(">=lgphone", "<tablet") {
+    @include lgphone-only {
       font-size: 12px;
       width: 100%;
       text-align: center;
     }
-    @include media(">=tablet", "<desktop") {
+    @include tablet-only {
       font-size: 14px;
       width: 100%;
       text-align: center;
@@ -103,7 +103,7 @@
   z-index: 1;
   display: flex;
   padding: 0;
-  @include media(">=phone", "<desktop"){
+  @include below-desktop {
     padding: 10px;
   }
   .WorkExperienceImage {
@@ -125,7 +125,7 @@
       margin-top: 30px;
       height: 200px;
     }
-    @include media(">=phone", "<desktop") {
+    @include below-desktop {
       width: 0%;
       align-items: center;
       margin: 0px;
@@ -156,17 +156,17 @@
   }
 
   p {
-    @include media(">=phone", "<lgphone") {
+    @include phone-only {
       font-size: 10px;
       width: 100%;
       text-align: center;
     }
-    @include media(">=lgphone", "<tablet") {
+    @include lgphone-only {
       font-size: 12px;
       width: 100%;
       text-align: center;
     }
-    @include media(">=tablet", "<desktop") {
+    @include tablet-only {
       font-size: 14px;
       width: 100%;
       text-align: center;

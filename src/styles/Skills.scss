@@ -1,4 +1,4 @@
-@import "./include-media";
+@import "./breakpoints";
 
 .gradient{
     background: linear-gradient(to right,#f3cdff, #3794ff);
@@ -27,13 +27,13 @@
       margin-top: 0px;
       grid-gap: 10px;
   
-      @include media(">=phone", "<lgphone") {
+      @include phone-only {
         grid-template-columns: 1fr 1fr;
       }
-      @include media(">=lgphone", "<tablet") {
+      @include lgphone-only {
         grid-template-columns: 1fr 1fr;
       }
-      @include media(">=tablet", "<desktop") {
+      @include tablet-only {
         grid-template-columns: 1fr 1fr 1fr;
       }
   
@@ -78,13 +78,13 @@
     margin-top: 0px;
     grid-gap: 10px;
 
-    @include media(">=phone", "<lgphone") {
+    @include phone-only {
       grid-template-columns: 1fr 1fr;
     }
-    @include media(">=lgphone", "<tablet") {
+    @include lgphone-only {
       grid-template-columns: 1fr 1fr;
     }
-    @include media(">=tablet", "<desktop") {
+    @include tablet-only {
       grid-template-columns: 1fr 1fr 1fr;
     }
 

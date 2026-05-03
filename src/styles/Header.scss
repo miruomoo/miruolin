@@ -1,4 +1,4 @@
-@import "./include-media";
+@import "./breakpoints";
 
 video {
     align-items: center;
@@ -9,9 +9,8 @@ video {
     left: 0;
     z-index: -1;
     min-height: 100%;
-    @include media(">lgdesktop"){
-        width: 0;
-    }
+    width: 100%;
+    object-fit: cover;
 }
 
 .button-wrapper {
@@ -33,15 +32,15 @@ video {
         text-align: center;
         font-size: 18px;
 
-        @include media(">=phone", "<lgphone") {
+        @include phone-only {
             font-size: 14px;
         }
 
-        @include media(">=lgphone", "<tablet") {
+        @include lgphone-only {
             font-size: 16px;
         }
 
-        @include media(">=tablet", "<desktop") {
+        @include tablet-only {
             font-size: 16px;
         }
     }
@@ -53,17 +52,17 @@ video {
             text-align: center;
             line-height: 20px;
 
-            @include media(">=phone", "<lgphone") {
+            @include phone-only {
                 font-size: 1.5rem;
                 line-height: 10px;
             }
 
-            @include media(">=lgphone", "<tablet") {
+            @include lgphone-only {
                 font-size: 1.5rem;
                 line-height: 10px;
             }
 
-            @include media(">=tablet", "<desktop") {
+            @include tablet-only {
                 font-size: 2.5rem;
             }
         }
@@ -76,17 +75,17 @@ video {
         width: 100%;
         font-weight: 400;
 
-        @include media(">=phone", "<lgphone") {
+        @include phone-only {
             font-size: 12px;
             width: 100%;
         }
 
-        @include media(">=lgphone", "<tablet") {
+        @include lgphone-only {
             font-size: 12px;
             width: 100%;
         }
 
-        @include media(">=tablet", "<desktop") {
+        @include tablet-only {
             font-size: 14px;
             width: 100%;
         }
@@ -155,15 +154,15 @@ video {
         text-align: center;
         font-size: 18px;
 
-        @include media(">=phone", "<lgphone") {
+        @include phone-only {
             font-size: 14px;
         }
 
-        @include media(">=lgphone", "<tablet") {
+        @include lgphone-only {
             font-size: 16px;
         }
 
-        @include media(">=tablet", "<desktop") {
+        @include tablet-only {
             font-size: 16px;
         }
     }
@@ -175,17 +174,17 @@ video {
             text-align: center;
             line-height: 20px;
 
-            @include media(">=phone", "<lgphone") {
+            @include phone-only {
                 font-size: 1.5rem;
                 line-height: 10px;
             }
 
-            @include media(">=lgphone", "<tablet") {
+            @include lgphone-only {
                 font-size: 1.5rem;
                 line-height: 10px;
             }
 
-            @include media(">=tablet", "<desktop") {
+            @include tablet-only {
                 font-size: 2.5rem;
             }
         }
@@ -198,17 +197,17 @@ video {
         width: 100%;
         font-weight: 400;
 
-        @include media(">=phone", "<lgphone") {
+        @include phone-only {
             font-size: 12px;
             width: 100%;
         }
 
-        @include media(">=lgphone", "<tablet") {
+        @include lgphone-only {
             font-size: 12px;
             width: 100%;
         }
 
-        @include media(">=tablet", "<desktop") {
+        @include tablet-only {
             font-size: 14px;
             width: 100%;
         }

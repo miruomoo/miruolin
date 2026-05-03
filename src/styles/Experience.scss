@@ -1,4 +1,4 @@
-@import "./include-media";
+@import "./breakpoints";
 
 .work-wrapper {
   width: 50vw;
@@ -13,7 +13,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
-    @include media(">=phone", "<tablet") {
+    @include mobile {
       font-size: 2rem;
     }
 }
@@ -32,7 +32,7 @@
     -webkit-text-fill-color: transparent;
     font-weight: 600;
     font-size: 3rem;
-    @include media(">=phone", "<tablet") {
+    @include mobile {
       font-size: 2rem;
     }
 }
