@@ -19,8 +19,8 @@ const Header = ({darkMode}) => {
               <h1>I'm Miruo.</h1>
             </div>
             <p>
-              a Western Software Engineering Graduate
-              <span> 🐎</span>
+              a Software Engineer
+              <span> 💻</span>
             </p>
           </FadeIn>
           <div className="button-wrapper">

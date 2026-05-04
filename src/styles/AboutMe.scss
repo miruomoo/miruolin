@@ -19,9 +19,10 @@
 
 .picture {
     margin-top: 4vh;
-    height: 28vmin;
+    height: clamp(100px, 28vmin, 320px);
+    width: clamp(100px, 28vmin, 320px);
     border-radius: 50%;
-    border: 1vh solid #121212;
+    border: clamp(4px, 1vmin, 8px) solid #121212;
     transition: transform 0.3s ease;
   }
   .picture:hover {
@@ -29,9 +30,10 @@
   }
   .picture.light{
     margin-top: 4vh;
-    height: 28vmin;
+    height: clamp(100px, 28vmin, 320px);
+    width: clamp(100px, 28vmin, 320px);
     border-radius: 50%;
-    border: 1vh solid #acc9ff;
+    border: clamp(4px, 1vmin, 8px) solid #acc9ff;
     transition: transform 0.3s ease;
   }
 

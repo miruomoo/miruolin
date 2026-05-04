@@ -35,10 +35,12 @@ const App = () => {
         <>
             <NavigationBar darkMode={darkMode} setDarkMode={setDarkMode}></NavigationBar>
             <Header darkMode={darkMode}></Header>
-            <AboutMe darkMode={darkMode}></AboutMe>
-            <Skills darkMode={darkMode}></Skills>
-            <Projects darkMode={darkMode}></Projects>
-            <Experience darkMode={darkMode}></Experience>
+            <div className="main-content">
+                <AboutMe darkMode={darkMode}></AboutMe>
+                <Skills darkMode={darkMode}></Skills>
+                <Projects darkMode={darkMode}></Projects>
+                <Experience darkMode={darkMode}></Experience>
+            </div>
             <Footer darkMode={darkMode}></Footer>
         </>
     );
