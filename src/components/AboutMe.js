@@ -46,7 +46,7 @@ function AboutMe({darkMode}) {
               <h1 className='gradient'> About Me </h1>
             </FadeIn>
             <p>
-              Welcome to my personal page! My name is Miruo Lin, and I'm currently a software engineering graduate.
+              Welcome to my personal page! My name is Miruo Lin, and I'm a full-stack software engineer.
             </p>
             <p>I am super passionate about good design, and I've learned skills in software development through work, projects, and university. You can find all of them on this page.<span>
             😁</span></p>
