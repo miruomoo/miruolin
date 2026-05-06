@@ -1,4 +1,4 @@
-@import "include-media";
+@import "./breakpoints";
 
 .imageWrapper {
     width: 100%;
@@ -6,22 +6,23 @@
     align-items: flex-start;
     justify-content: center;
     overflow: hidden;
-    @include media(">=phone", "<lgphone") {
+    @include phone-only {
       width: 100%;
     }
-    @include media(">=lgphone", "<tablet") {
+    @include lgphone-only {
       width: 100%;
     }
-    @include media(">=tablet", "<desktop") {
+    @include tablet-only {
       width: 100%;
     }
   }
 
 .picture {
     margin-top: 4vh;
-    height: 28vmin;
+    height: clamp(100px, 28vmin, 320px);
+    width: clamp(100px, 28vmin, 320px);
     border-radius: 50%;
-    border: 1vh solid #121212;
+    border: clamp(4px, 1vmin, 8px) solid #121212;
     transition: transform 0.3s ease;
   }
   .picture:hover {
@@ -29,9 +30,10 @@
   }
   .picture.light{
     margin-top: 4vh;
-    height: 28vmin;
+    height: clamp(100px, 28vmin, 320px);
+    width: clamp(100px, 28vmin, 320px);
     border-radius: 50%;
-    border: 1vh solid #acc9ff;
+    border: clamp(4px, 1vmin, 8px) solid #acc9ff;
     transition: transform 0.3s ease;
   }
 
@@ -68,17 +70,17 @@
     margin-top: 5vh;
     display: flex;
     justify-content: space-between;
-    @include media(">=phone", "<lgphone") {
+    @include phone-only {
       flex-direction: column-reverse;
       width: 70vw;
       
     }
-    @include media(">=lgphone", "<tablet") {
+    @include lgphone-only {
       flex-direction: column-reverse;
       width: 70vw;
     
     }
-    @include media(">=tablet", "<desktop") {
+    @include tablet-only {
       flex-direction: column-reverse;
       align-items: center;
       width: 70vw;
@@ -87,13 +89,13 @@
   
     .content {
       width: 90%;
-      @include media(">=phone", "<lgphone") {
+      @include phone-only {
         width: 100%;
       }
-      @include media(">=lgphone", "<tablet") {
+      @include lgphone-only {
         width: 100%;
       }
-      @include media(">=tablet", "<desktop") {
+      @include tablet-only {
         width: 100%;
       }
       padding-right: 2rem;
@@ -102,12 +104,12 @@
         font-size: 3rem;
         font-weight: 500;
         line-height: 3rem;
-        @include media(">=lgphone", "<desktop") {
+        @include lgphone-to-desktop {
           text-align: center;
         }
       }
       p {
-        @include media(">=tablet", "<desktop") {
+        @include tablet-only {
           text-align: center;
         }
       }
@@ -115,13 +117,13 @@
 
     .content.light{
       width: 90%;
-      @include media(">=phone", "<lgphone") {
+      @include phone-only {
         width: 100%;
       }
-      @include media(">=lgphone", "<tablet") {
+      @include lgphone-only {
         width: 100%;
       }
-      @include media(">=tablet", "<desktop") {
+      @include tablet-only {
         width: 100%;
       }
       padding-right: 2rem;
@@ -130,13 +132,13 @@
         font-size: 3rem;
         font-weight: 600;
         line-height: 3rem;
-        @include media(">=lgphone", "<desktop") {
+        @include lgphone-to-desktop {
           text-align: center;
         }
       }
       p {
         font-weight: 500;
-        @include media(">=tablet", "<desktop") {
+        @include tablet-only {
           text-align: center;
         }
       }

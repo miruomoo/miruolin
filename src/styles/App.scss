@@ -29,3 +29,20 @@ body.light {
 button {
   font-family: "Inter", serif;
 }
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+
+  .section {
+    width: 100%;
+  }
+
+  .about-section,
+  .skills-container,
+  .project-container,
+  .work-wrapper {
+    max-width: 100%;
+  }
+}

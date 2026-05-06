@@ -1,4 +1,4 @@
-@import "./include-media";
+@import "./breakpoints";
 
 .tilt-wrapper {
   width: 100%;
@@ -42,7 +42,7 @@
       font-weight: 200;
       color: white;
       margin-bottom: 20px;
-      @include media(">=phone", "<desktop") {
+      @include below-desktop {
         font-size: 16px;
       }
     }

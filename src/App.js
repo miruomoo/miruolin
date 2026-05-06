@@ -12,7 +12,16 @@ import NavigationBar from "./components/NavigationBar";
 import "./styles/App.scss";
 
 const App = () => {
-    const [darkMode, setDarkMode] = useState(true);
+    const [darkMode, setDarkMode] = useState(
+        () => !window.matchMedia('(prefers-color-scheme: light)').matches
+    );
+
+    useEffect(() => {
+        const mq = window.matchMedia('(prefers-color-scheme: light)');
+        const handler = (e) => setDarkMode(!e.matches);
+        mq.addEventListener('change', handler);
+        return () => mq.removeEventListener('change', handler);
+    }, []);
 
     useEffect(()  => {
         if (!darkMode){
@@ -26,10 +35,12 @@ const App = () => {
         <>
             <NavigationBar darkMode={darkMode} setDarkMode={setDarkMode}></NavigationBar>
             <Header darkMode={darkMode}></Header>
-            <AboutMe darkMode={darkMode}></AboutMe>
-            <Skills darkMode={darkMode}></Skills>
-            <Projects darkMode={darkMode}></Projects>
-            <Experience darkMode={darkMode}></Experience>
+            <div className="main-content">
+                <AboutMe darkMode={darkMode}></AboutMe>
+                <Skills darkMode={darkMode}></Skills>
+                <Projects darkMode={darkMode}></Projects>
+                <Experience darkMode={darkMode}></Experience>
+            </div>
             <Footer darkMode={darkMode}></Footer>
         </>
     );
