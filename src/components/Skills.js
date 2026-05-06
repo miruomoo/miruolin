@@ -2,47 +2,33 @@ import "../styles/Skills.scss"
 import FadeIn from "react-fade-in/lib/FadeIn";
 import skillsdata from "../data/skillsData";
 
-const Skills=({darkMode}) => {
-    return (
-        <div className="section" id="skills">
-        <div className="container">
-          <div className={
-            darkMode?'skills-container':'skills-container light'
-          }>
-            <FadeIn bottom cascade>
-              <h1 className="gradient">Skills</h1>
-              <h3>Languages:</h3> 
-              <div className="skills-grid">
-                {skillsdata.languages.map((skill, index) => (
-                <div className="skill" key={index}>
-                <img src={skill.img} alt="language"></img>
-                <p>{skill.name}</p>
-               </div>
-                 ))}
-              </div>
-              <h3>Frameworks & Libraries:</h3>
-              <div className="skills-grid">
-                {skillsdata.frameworks.map((skill, index) => (
-                <div className="skill" key={index}>
-                <img src={skill.img} alt="framework"></img>
-                <p>{skill.name}</p>
-               </div>
-                 ))}
-              </div>
-              <h3>Developer Tools:</h3>
-              <div className="skills-grid">
-                {skillsdata.tools.map((skill, index) => (
-                <div className="skill" key={index}>
-                <img src={skill.img} alt="tool"></img>
-                <p>{skill.name}</p>
-               </div>
-                 ))}
-              </div>
-            </FadeIn>
-          </div>
+const SkillCategory = ({ title, skills }) => (
+  <div className="skill-category">
+    <h3>{title}</h3>
+    <div className="skill-tags">
+      {skills.map((skill, i) => (
+        <div className="skill-tag" key={i}>
+          <img src={skill.img} alt={skill.name} />
+          <span>{skill.name}</span>
         </div>
+      ))}
+    </div>
+  </div>
+);
+
+const Skills = ({ darkMode }) => (
+  <div className="section" id="skills">
+    <div className="container">
+      <div className={`skills-container${darkMode ? "" : " light"}`}>
+        <FadeIn bottom cascade>
+          <h1 className="gradient">Skills</h1>
+          <SkillCategory title="Languages" skills={skillsdata.languages} />
+          <SkillCategory title="Frameworks & Libraries" skills={skillsdata.frameworks} />
+          <SkillCategory title="Developer Tools" skills={skillsdata.tools} />
+        </FadeIn>
       </div>
-    )
-}
+    </div>
+  </div>
+);
 
 export default Skills;
