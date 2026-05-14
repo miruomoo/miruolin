@@ -2,8 +2,8 @@
 
 .tilt-wrapper {
   width: 100%;
-  max-width: 500px;
-  height: 250px;
+  max-width: 360px;
+  height: 220px;
   transform-style: preserve-3d;
   perspective: 1000px;
 }
@@ -33,7 +33,7 @@
     transition: all 300ms ease-in-out;
     transform: translate(0, 30px);
     h1 {
-      font-size: 23px;
+      font-size: 20px;
       font-weight: 400;
       color: rgb(255, 255, 255);
     }
@@ -43,7 +43,7 @@
       color: white;
       margin-bottom: 20px;
       @include below-desktop {
-        font-size: 16px;
+        font-size: 13px;
       }
     }
     .btn {

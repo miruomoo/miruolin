@@ -17,11 +17,11 @@
 }
 
 @mixin lgphone-to-desktop {
-  @media (min-width: 480px) and (max-width: 1023px) { @content; }
+  @media (min-width: 480px) and (max-width: 1200px) { @content; }
 }
 
 @mixin below-desktop {
-  @media (max-width: 1023px) { @content; }
+  @media (max-width: 1200px) { @content; }
 }
 
 @mixin above-lgdesktop {
