@@ -22,10 +22,10 @@ export function About() {
   return (
     <section
       id="about"
-      className="relative mx-auto w-full max-w-4xl scroll-mt-20 px-6 py-14 sm:py-20"
+      className="mx-auto w-full max-w-4xl scroll-mt-20 px-6 py-14 sm:py-20"
     >
-      <div className="relative mx-auto max-w-xl">
-        <div className="relative mb-8 h-40 w-40 sm:absolute sm:right-full sm:top-2 sm:mb-0 sm:mr-20 md:h-44 md:w-44">
+      <div className="mx-auto flex w-fit max-w-full flex-col items-start gap-8 sm:flex-row sm:items-start sm:gap-20">
+        <div className="h-50 w-50 shrink-0 md:h-44 md:w-44">
           <Stack
             cards={cards}
             sensitivity={150}
@@ -33,19 +33,21 @@ export function About() {
             animationConfig={{ stiffness: 260, damping: 20 }}
           />
         </div>
-        <p className="mb-6 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-muted">
-          About
-        </p>
-        <div className="flex flex-col gap-4 text-base leading-relaxed text-fg/85 sm:text-lg">
-          <p>
-            I&rsquo;m a full-stack engineer who cares about how software feels to
-            use. Most of my time is spent building products end-to-end: designing
-            the interaction, writing the code, and shipping it.
+        <div className="max-w-xl">
+          <p className="mb-6 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-muted">
+            About
           </p>
-          <p>
-            Outside of work, I&rsquo;m into music production, painting landscapes,
-            JDM cars, and the films of Denis Villeneuve.
-          </p>
+          <div className="flex flex-col gap-4 text-base leading-relaxed text-fg/85 sm:text-lg">
+            <p>
+              I&rsquo;m a full-stack engineer who cares about how software feels to
+              use. Most of my time is spent building products end-to-end: designing
+              the interaction, writing the code, and shipping it.
+            </p>
+            <p>
+              Outside of work, I&rsquo;m into music production, painting landscapes,
+              JDM cars, and the films of Denis Villeneuve.
+            </p>
+          </div>
         </div>
       </div>
     </section>
