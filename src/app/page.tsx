@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <main className="flex flex-1 flex-col">
         <Banner />
-        <section id="about" className="mx-auto w-full max-w-2xl px-6 py-14 sm:py-20">
+        <section id="about" className="mx-auto w-full max-w-2xl scroll-mt-20 px-6 py-14 sm:py-20">
           <p className="mb-6 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-muted">
             About
           </p>

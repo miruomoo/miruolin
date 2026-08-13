@@ -2,7 +2,7 @@ import { experiences } from "@/data/experience";
 
 export function Experience() {
   return (
-    <section id="experience" className="mx-auto w-full max-w-3xl px-6 py-14 sm:py-20">
+    <section id="experience" className="mx-auto w-full max-w-3xl scroll-mt-20 px-6 py-14 sm:py-20">
       <p className="mb-8 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-muted">
         Experience
       </p>

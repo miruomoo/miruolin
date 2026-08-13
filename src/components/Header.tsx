@@ -21,7 +21,7 @@ export function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-[background-color,border-color,backdrop-filter] duration-300 ${
+      className={`fixed top-0 z-50 w-full transition-[background-color,border-color,backdrop-filter] duration-300 ${
         scrolled
           ? "border-b border-border/80 bg-bg/70 backdrop-blur-xl"
           : "border-b border-transparent bg-transparent"

@@ -1,11 +1,11 @@
 import BorderGlow from "@/ui/BorderGlow";
 import { projects } from "@/data/projects";
 
-const MESH_COLORS = ["var(--mesh-1)", "var(--mesh-2)", "var(--mesh-3)"];
+const MESH_COLORS = ["#ffffff", "#a3a3a3", "#525252"];
 
 export function Projects() {
   return (
-    <section id="projects" className="mx-auto w-full max-w-5xl px-6 py-14 sm:py-20">
+    <section id="projects" className="mx-auto w-full max-w-5xl scroll-mt-20 px-6 py-14 sm:py-20">
       <p className="mb-8 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-muted">
         Projects
       </p>
@@ -15,7 +15,7 @@ export function Projects() {
             key={project.name}
             backgroundColor="var(--card-bg)"
             borderRadius={20}
-            glowColor="150 60 55"
+            glowColor="0 0 100"
             colors={MESH_COLORS}
             edgeSensitivity={35}
             glowIntensity={0.9}

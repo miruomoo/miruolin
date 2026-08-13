@@ -1,6 +1,7 @@
 "use client";
 
 import SpecularButton from "@/ui/SpecularButton";
+import Grainient from "@/ui/Grainient";
 
 const GITHUB_URL = "https://github.com/miruomoo";
 const LINKEDIN_URL = "https://www.linkedin.com/in/miruo-lin/";
@@ -11,8 +12,25 @@ export function Banner() {
   return (
     <section
       id="top"
-      className="relative flex flex-col items-center justify-center px-6 py-20 sm:py-28"
+      className="relative flex flex-col items-center justify-center overflow-hidden px-6 py-20 sm:py-28"
     >
+      <div className="pointer-events-none absolute inset-0 opacity-30">
+        <Grainient
+          color1="#0c0c0c"
+          color2="#7a7979"
+          color3="#fcf9f9"
+          saturation={0}
+          timeSpeed={0.25}
+          warpSpeed={5}
+          warpFrequency={5}
+          warpStrength={1}
+          warpAmplitude={50}
+          rotationAmount={300}
+          grainAmount={0.05}
+          contrast={1.6}
+          zoom={1.1}
+        />
+      </div>
       <div className="flex flex-col items-center text-center">
         <p className="mb-8 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-muted animate-fade-up [animation-delay:0ms]">
           Full-Stack Software Engineer
@@ -63,13 +81,12 @@ export function Banner() {
           </SpecularButton>
         </div>
 
-        <p
+        {/* <p
           className="mt-12 max-w-xl text-balance text-base leading-relaxed text-muted animate-fade-up sm:text-lg"
           style={{ animationDelay: "560ms" }}
         >
-          I build thoughtful products at the intersection of design and engineering.
-          Currently interested in tools that make everyday software feel considered.
-        </p>
+          
+        </p> */}
       </div>
     </section>
   );

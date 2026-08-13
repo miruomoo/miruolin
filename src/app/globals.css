@@ -53,8 +53,8 @@ body {
 }
 
 ::selection {
-  background: var(--accent);
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
 }
 
 @keyframes fade-up {
