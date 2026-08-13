@@ -1,5 +1,6 @@
 "use client";
 
+import { useTheme } from "next-themes";
 import SpecularButton from "@/ui/SpecularButton";
 import Grainient from "@/ui/Grainient";
 
@@ -9,6 +10,9 @@ const LINKEDIN_URL = "https://www.linkedin.com/in/miruo-lin/";
 const NAME_WORDS = ["Miruo", "Lin"];
 
 export function Banner() {
+  const { resolvedTheme } = useTheme();
+  const isLight = resolvedTheme === "light";
+
   return (
     <section
       id="top"
@@ -16,10 +20,10 @@ export function Banner() {
     >
       <div className="pointer-events-none absolute inset-0 opacity-30">
         <Grainient
-          color1="#0c0c0c"
-          color2="#7a7979"
-          color3="#fcf9f9"
-          saturation={0}
+          color1={isLight ? "#1c1a16" : "#0c0c0c"}
+          color2={isLight ? "#b87333" : "#7a7979"}
+          color3={isLight ? "#f2ede5" : "#fcf9f9"}
+          saturation={isLight ? 0.4 : 0}
           timeSpeed={0.25}
           warpSpeed={5}
           warpFrequency={5}
