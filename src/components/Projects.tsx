@@ -15,7 +15,7 @@ export function Projects() {
             key={project.name}
             backgroundColor="var(--card-bg)"
             borderRadius={20}
-            glowColor="0 0 100"
+            glowColor="0 0 70"
             colors={MESH_COLORS}
             edgeSensitivity={35}
             glowIntensity={0.9}

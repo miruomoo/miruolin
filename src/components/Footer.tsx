@@ -5,7 +5,7 @@ export function Footer() {
       <div className="flex flex-col items-center gap-2 border-t border-border pt-8 text-center text-[0.8rem] text-muted sm:flex-row sm:justify-between sm:text-left">
         <p>Miruo Lin · {year}</p>
         <p>
-          Built with Next.js. Source on{" "}
+          Thanks for visiting! Source on{" "}
           <a
             href="https://github.com/miruomoo/miruolin"
             target="_blank"

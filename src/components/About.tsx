@@ -3,10 +3,11 @@
 import Stack from "@/ui/Stack";
 
 const CARD_IMAGES = [
-  { src: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?q=80&w=500&auto=format", alt: "Landscape" },
-  { src: "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=500&auto=format", alt: "Forest" },
-  { src: "https://images.unsplash.com/photo-1452626212852-811d58933cae?q=80&w=500&auto=format", alt: "Mountain" },
-  { src: "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=500&auto=format", alt: "Nature" },
+  { src: "/images/stack1.JPEG", alt: "Disney" },
+  { src: "/images/stack2.JPEG", alt: "Toronto" },
+  { src: "/images/stack3.JPEG", alt: "Ramen" },
+  { src: "/images/stack4.JPEG", alt: "Yosemite" },
+  { src: "/images/stack5.JPEG", alt: "Malibu" },
 ];
 
 export function About() {
@@ -25,9 +26,9 @@ export function About() {
       className="mx-auto w-full max-w-4xl scroll-mt-20 px-6 py-14 sm:py-20"
     >
       <div className="mx-auto flex w-fit max-w-full flex-col items-start gap-8 sm:flex-row sm:items-start sm:gap-20">
-        <div className="h-50 w-50 shrink-0 md:h-44 md:w-44">
+        <div className="h-40 w-40 shrink-0 md:h-50 md:w-50">
           <Stack
-            cards={cards}
+            cards={cards.reverse()}
             sensitivity={150}
             sendToBackOnClick
             animationConfig={{ stiffness: 260, damping: 20 }}
@@ -39,13 +40,11 @@ export function About() {
           </p>
           <div className="flex flex-col gap-4 text-base leading-relaxed text-fg/85 sm:text-lg">
             <p>
-              I&rsquo;m a full-stack engineer who cares about how software feels to
-              use. Most of my time is spent building products end-to-end: designing
-              the interaction, writing the code, and shipping it.
+              I&rsquo;m a full-stack engineer who thinks about how software feels to use, not just whether it works. Most of my time goes into building products end-to-end: designing the interactions, writing the code, and refining it based on user feedback.
             </p>
             <p>
-              Outside of work, I&rsquo;m into music production, painting landscapes,
-              JDM cars, and the films of Denis Villeneuve.
+              Outside of work, I&rsquo;m nerding out about video games, music production, painting,
+              JDM cars, or Denis Villeneuve movies.
             </p>
           </div>
         </div>
