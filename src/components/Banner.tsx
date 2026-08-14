@@ -8,7 +8,7 @@ import Grainient from "@/ui/Grainient";
 const GITHUB_URL = "https://github.com/miruomoo";
 const LINKEDIN_URL = "https://www.linkedin.com/in/miruo-lin/";
 // reversed — decoded only at click time, never a plain address in the bundle
-const EMAIL_R = "moc.liamg@1nioloruim";
+const EMAIL_R = "moc.liamg@1nilourim";
 
 const NAME_WORDS = ["Miruo", "Lin"];
 
@@ -104,6 +104,7 @@ export function Banner() {
           className="group mt-10 inline-flex items-center gap-2 text-[0.85rem] text-muted transition-colors hover:text-fg animate-fade-up"
           style={{ animationDelay: "560ms" }}
         >
+          Email: 
           <span className="relative">
             {"miruolin1 [at] gmail [dot] com"}
             <span aria-hidden="true" className="absolute bottom-0 left-0 h-px w-full origin-right scale-x-0 bg-current transition-transform duration-300 group-hover:origin-left group-hover:scale-x-100" />

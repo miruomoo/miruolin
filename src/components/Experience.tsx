@@ -17,9 +17,13 @@ export function Experience() {
                       href={entry.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="transition-opacity hover:opacity-70"
+                      className="group relative inline-block"
                     >
                       {entry.company}
+                      <span
+                        aria-hidden="true"
+                        className="absolute bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-current transition-transform duration-300 group-hover:origin-left group-hover:scale-x-100"
+                      />
                     </a>
                   ) : (
                     entry.company

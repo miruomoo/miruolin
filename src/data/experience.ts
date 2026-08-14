@@ -13,29 +13,30 @@ export const experiences: Experience[] = [
     company: "Manulife",
     role: "Software Engineer",
     period: "June 2025 — Present",
-    location: "Toronto, ON",
+    location: "Toronto",
     description:
-      "Placeholder description. Led development of a customer-facing platform serving thousands of users. Built distributed backend services and shipped end-to-end features across the stack.",
+      "Shipping AI-powered products at Manulife, including a customer support research assistant and an internal HR chatbot used company-wide, alongside automating the CI/CD pipelines that keep them deployed.",
     tech: ["TypeScript", "Next.js", "Python", "LangChain", "FastAPI"],
-    href: "#",
+    href: "https://www.manulife.com/ca/en/about-us/ai",
   },
   {
     company: "Manulife",
     role: "Software Engineer Intern",
-    period: "2022 — 2024",
-    location: "Toronto, ON",
+    period: "May 2024 — Apr. 2025",
+    location: "Toronto",
     description:
-      "Placeholder description. Owned key features from design to deploy across a modern web application. Improved core performance metrics and mentored junior engineers on the team.",
+      "Built a client-requested investment visualizer, integrated financial APIs into portfolio management microservices, and helped secure a set of legacy apps against SQL injection and XSS.",
     tech: ["React", "Spring Boot", "Java"],
-    href: "#",
+    href: "https://www.manulifeim.com/en",
   },
   {
     company: "RBC",
     role: "Software Engineer Intern",
-    period: "2020 — 2022",
-    location: "Toronto, ON",
+    period: "Sept. 2023 —  Apr. 2024",
+    location: "Toronto",
     description:
-      "Placeholder description. Contributed to internal tooling and platform infrastructure. Automated deployment pipelines and built observability into critical services.",
+      "Engineered a data dictionary tool for ingesting large volumes of datasets daily, and a reusable Angular component library for rendering relationship graphs across mainframe applications.",
     tech: ["Angular", "TypeScript", "Spring Boot", "Java"],
+    href: "https://www.rbc.com/our-impact/technology/index.html"
   },
 ];

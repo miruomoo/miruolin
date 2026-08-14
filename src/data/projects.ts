@@ -9,36 +9,20 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: "Placeholder One",
-    tagline: "Real-time collaborative canvas",
+    name: "RBC TechPulse",
+    tagline: "Capstone project commissioned by RBC",
     description:
-      "A shared drawing app with cursor presence and undo across clients. Uses CRDTs for conflict-free concurrent editing.",
-    tech: ["TypeScript", "WebSocket", "Yjs", "Canvas API"],
+      "A GenAI tool for researching technology trends, aggregating insights from various sources and providing actionable recommendations.",
+    tech: ["TypeScript", "React", "Python", "OpenAI API"],
     github: "https://github.com/miruomoo",
   },
   {
-    name: "Placeholder Two",
-    tagline: "Terminal-first task tracker",
+    name: "Course Outline Manager",
+    tagline: "CRUD tool for ECE department",
     description:
-      "A minimal CLI for managing tasks entirely from the terminal. Local-first with optional sync to a self-hosted backend.",
-    tech: ["Rust", "SQLite", "Ratatui"],
+      "Web application to help professors and teaching assistants to edit and manage course outlines.",
+    tech: ["React", "JavaScript", "Node.js", "MongoDB"],
     github: "https://github.com/miruomoo",
     live: "#",
-  },
-  {
-    name: "Placeholder Three",
-    tagline: "Music production visualizer",
-    description:
-      "An audio-reactive visual companion for DAW sessions. Runs shader passes synced to the mixdown for rendering out music videos.",
-    tech: ["WebGL", "Web Audio API", "React"],
-    github: "https://github.com/miruomoo",
-  },
-  {
-    name: "Placeholder Four",
-    tagline: "Static site generator",
-    description:
-      "A tiny opinionated SSG that turns Markdown notes into an interlinked personal wiki. Ships fast, deploys anywhere.",
-    tech: ["Go", "Markdown", "Templating"],
-    github: "https://github.com/miruomoo",
   },
 ];

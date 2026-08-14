@@ -91,6 +91,17 @@ const BorderGlow: React.FC<BorderGlowProps> = ({
   const [cursorAngle, setCursorAngle] = useState(45);
   const [edgeProximity, setEdgeProximity] = useState(0);
   const [sweepActive, setSweepActive] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mql = window.matchMedia('(max-width: 640px)');
+    const update = () => setIsMobile(mql.matches);
+    update();
+    mql.addEventListener('change', update);
+    return () => mql.removeEventListener('change', update);
+  }, []);
+
+  const effectiveGlowRadius = isMobile ? 0 : glowRadius;
 
   const getCenterOfElement = useCallback((el: HTMLElement) => {
     const { width, height } = el.getBoundingClientRect();
@@ -227,7 +238,7 @@ const BorderGlow: React.FC<BorderGlowProps> = ({
       <span
         className="absolute pointer-events-none z-[1] rounded-[inherit]"
         style={{
-          inset: `${-glowRadius}px`,
+          inset: `${-effectiveGlowRadius}px`,
           maskImage: `conic-gradient(from ${angleDeg} at center, black 2.5%, transparent 10%, transparent 90%, black 97.5%)`,
           WebkitMaskImage: `conic-gradient(from ${angleDeg} at center, black 2.5%, transparent 10%, transparent 90%, black 97.5%)`,
           opacity: glowOpacity,
@@ -238,7 +249,7 @@ const BorderGlow: React.FC<BorderGlowProps> = ({
         <span
           className="absolute rounded-[inherit]"
           style={{
-            inset: `${glowRadius}px`,
+            inset: `${effectiveGlowRadius}px`,
             boxShadow: buildBoxShadow(glowColor, glowIntensity),
           }}
         />
