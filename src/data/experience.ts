@@ -15,7 +15,7 @@ export const experiences: Experience[] = [
     period: "June 2025 — Present",
     location: "Toronto",
     description:
-      "Shipping AI-powered products at Manulife, including a customer support research assistant and an internal HR chatbot used company-wide, alongside automating the CI/CD pipelines that keep them deployed.",
+      "Shipping AI-powered products at Manulife, including a customer support research assistant and an internal HR chatbot used company-wide. Also automating the CI/CD pipelines keeping them and other tools deployed.",
     tech: ["TypeScript", "Next.js", "Python", "LangChain", "FastAPI"],
     href: "https://www.manulife.com/ca/en/about-us/ai",
   },
@@ -25,7 +25,7 @@ export const experiences: Experience[] = [
     period: "May 2024 — Apr. 2025",
     location: "Toronto",
     description:
-      "Built a client-requested investment visualizer, integrated financial APIs into portfolio management microservices, and helped secure a set of legacy apps against SQL injection and XSS.",
+      "Built a client-requested investment visualizer and integrated financial APIs into portfolio management microservices. Helped secure a set of legacy apps against SQL injection and XSS.",
     tech: ["React", "Spring Boot", "Java"],
     href: "https://www.manulifeim.com/en",
   },

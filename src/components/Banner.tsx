@@ -54,7 +54,7 @@ export function Banner() {
 
         <h1
           aria-label="Miruo Lin"
-          className="flex flex-wrap items-baseline justify-center gap-x-4 font-serif text-[clamp(4rem,14vw,6rem)] font-light leading-[0.95] tracking-[-0.02em] text-fg"
+          className="flex flex-wrap items-baseline justify-center gap-x-4 font-serif text-[clamp(4rem,14vw,5rem)] font-light leading-[0.95] tracking-[-0.02em] text-fg"
         >
           {NAME_WORDS.map((word, i) => (
             <span

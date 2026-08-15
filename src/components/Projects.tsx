@@ -5,7 +5,7 @@ const MESH_COLORS = ["#ffffff", "#a3a3a3", "#525252"];
 
 export function Projects() {
   return (
-    <section id="projects" className="mx-auto w-full max-w-5xl scroll-mt-20 px-6 py-14 sm:py-20">
+    <section id="projects" className="mx-auto w-full max-w-5xl scroll-mt-20 px-6 py-14 sm:py-20 overflow-x-clip">
       <p className="mb-8 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-muted">
         Projects
       </p>
@@ -51,6 +51,13 @@ export function Projects() {
                   >
                     GitHub ↗
                   </a>
+                )}
+                {!project.github && (
+                  <p
+                    className="text-muted"
+                  >
+                    Closed Source
+                  </p>
                 )}
                 {project.live && (
                   <a

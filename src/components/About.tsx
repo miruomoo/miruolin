@@ -40,7 +40,7 @@ export function About() {
           </p>
           <div className="flex flex-col gap-4 text-base leading-relaxed text-fg/85 sm:text-md">
             <p>
-              I&rsquo;m a full-stack engineer who thinks about how software feels to use. Most of my time goes into building products end-to-end: designing interactions, shipping code, and refining based on user feedback.
+              I&rsquo;m a full-stack engineer who obsesses over how software feels to use. Most of my time goes into building products end-to-end: designing interactions, shipping code, and refining based on user feedback.
             </p>
             <p>
               Outside of work, I&rsquo;m nerding out about video games, music production, painting,
