@@ -53,6 +53,11 @@ body {
 }
 
 ::selection {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+.dark ::selection {
   background: #ffffff;
   color: #000000;
 }

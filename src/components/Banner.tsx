@@ -32,14 +32,14 @@ export function Banner() {
     >
       <div className="pointer-events-none absolute inset-0 opacity-30">
         <Grainient
-          color1={isLight ? "#4e493f" : "#0c0c0c"}
+          color1={isLight ? "#302d27" : "#0c0c0c"}
           color2={isLight ? "#af7b4b" : "#7a7979"}
           color3={isLight ? "#f2ede5" : "#fcf9f9"}
           saturation={isLight ? 0.4 : 0}
           timeSpeed={0.25}
           warpSpeed={5}
           warpFrequency={5}
-          warpStrength={1}
+          warpStrength={3}
           warpAmplitude={50}
           rotationAmount={300}
           grainAmount={0.05}

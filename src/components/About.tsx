@@ -43,8 +43,7 @@ export function About() {
               I&rsquo;m a full-stack engineer who obsesses over how software feels to use. Most of my time goes into building products end-to-end: designing interactions, shipping code, and refining based on user feedback.
             </p>
             <p>
-              Outside of work, I&rsquo;m nerding out about video games, music production, painting,
-              JDM cars, or Denis Villeneuve movies :)
+              Outside of work, I&rsquo;m nerding out about video games, music production, JDM cars, or Denis Villeneuve movies :)
             </p>
           </div>
         </div>

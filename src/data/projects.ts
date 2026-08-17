@@ -22,7 +22,7 @@ export const projects: Project[] = [
     description:
       "Web application allowing professors and teaching assistants to edit and manage course outlines more easily.",
     tech: ["React", "JavaScript", "Node.js", "MongoDB"],
-    github: "https://github.com/miruomoo",
+    github: "https://github.com/miruomoo/Course-Outline-Manager",
     // live: "#",
   },
 ];
