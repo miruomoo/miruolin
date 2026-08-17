@@ -2,12 +2,15 @@
 
 import Stack from "@/ui/Stack";
 
+// basePath prefix required for GitHub Pages project deploy
+const BASE = process.env.NODE_ENV === "production" ? "/miruolin" : "";
+
 const CARD_IMAGES = [
-  { src: "/images/stack1.JPEG", alt: "Disney" },
-  { src: "/images/stack2.JPEG", alt: "Toronto" },
-  { src: "/images/stack3.JPEG", alt: "Ramen" },
-  { src: "/images/stack4.JPEG", alt: "Yosemite" },
-  { src: "/images/stack5.JPEG", alt: "Malibu" },
+  { src: `${BASE}/images/stack1.JPEG`, alt: "Disney" },
+  { src: `${BASE}/images/stack2.JPEG`, alt: "Toronto" },
+  { src: `${BASE}/images/stack3.JPEG`, alt: "Ramen" },
+  { src: `${BASE}/images/stack4.JPEG`, alt: "Yosemite" },
+  { src: `${BASE}/images/stack5.JPEG`, alt: "Malibu" },
 ];
 
 export function About() {
