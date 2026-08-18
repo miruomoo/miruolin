@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { ThemeProvider } from "@/lib/ThemeProvider";
+import { PageLoader } from "@/components/PageLoader";
 import "./globals.css";
 
 const inter = localFont({
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${inter.variable} ${cormorant.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-bg text-fg">
+        <PageLoader />
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>

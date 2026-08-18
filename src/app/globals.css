@@ -75,6 +75,11 @@ body {
 
 .animate-fade-up {
   animation: fade-up 1100ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  animation-play-state: paused;
+}
+
+.page-ready .animate-fade-up {
+  animation-play-state: running;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,6 +1,6 @@
 # miruolin
 
-Personal portfolio site for Miruo Lin — [miruolin.com](https://miruolin.com).
+Personal portfolio site for Miruo Lin — [miruomoo.github.io/miruolin](https://miruomoo.github.io/miruolin/).
 
 ## Stack
 

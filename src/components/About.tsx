@@ -6,11 +6,11 @@ import Stack from "@/ui/Stack";
 const BASE = process.env.NODE_ENV === "production" ? "/miruolin" : "";
 
 const CARD_IMAGES = [
-  { src: `${BASE}/images/stack1.JPEG`, alt: "Disney" },
-  { src: `${BASE}/images/stack2.JPEG`, alt: "Toronto" },
-  { src: `${BASE}/images/stack3.JPEG`, alt: "Ramen" },
-  { src: `${BASE}/images/stack4.JPEG`, alt: "Yosemite" },
-  { src: `${BASE}/images/stack5.JPEG`, alt: "Malibu" },
+  { src: `${BASE}/images/stack1.webp`, alt: "Disney" },
+  { src: `${BASE}/images/stack2.webp`, alt: "Toronto" },
+  { src: `${BASE}/images/stack3.webp`, alt: "Ramen" },
+  { src: `${BASE}/images/stack4.webp`, alt: "Yosemite" },
+  { src: `${BASE}/images/stack5.webp`, alt: "Malibu" },
 ];
 
 export function About() {
