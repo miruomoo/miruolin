@@ -11,7 +11,7 @@ export function PageLoader() {
       document.fonts.ready,
       new Promise<void>((resolve) => {
         if (document.readyState === "complete") resolve();
-        else window.addEventListener("load", resolve, { once: true });
+        else window.addEventListener("load", () => resolve(), { once: true });
       }),
     ]).then(() => {
       setLoaded(true);
