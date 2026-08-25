@@ -171,6 +171,7 @@ const BorderGlow: React.FC<BorderGlowProps> = ({
       onPointerLeave={() => setIsHovered(false)}
       className={`relative grid isolate border border-white/15 ${className}`}
       style={{
+        contain: 'layout',
         background: backgroundColor,
         borderRadius: `${borderRadius}px`,
         transform: 'translate3d(0, 0, 0.01px)',
