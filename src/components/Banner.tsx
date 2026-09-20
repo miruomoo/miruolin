@@ -101,7 +101,7 @@ export function Banner() {
           type="button"
           onClick={handleCopy}
           aria-label="Copy email address"
-          className="group mt-10 inline-flex items-center gap-2 text-[0.85rem] text-muted transition-colors hover:text-fg animate-fade-up"
+          className="group mt-10 inline-flex cursor-pointer items-center gap-2 text-[0.85rem] text-muted transition-colors hover:text-fg animate-fade-up"
           style={{ animationDelay: "560ms" }}
         >
           Email: 

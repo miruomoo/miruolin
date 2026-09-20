@@ -10,6 +10,8 @@
   --border: #e0d8cc;
   --accent: #b87333;
   --card-bg: #f5f0e8;
+  --card-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px, rgba(0, 0, 0, 0.1) 0 2px 4px, rgba(0, 0, 0, 0.1) 0 4px 8px, rgba(0, 0, 0, 0.1) 0 8px 16px, rgba(0, 0, 0, 0.1) 0 16px 32px, rgba(0, 0, 0, 0.1) 0 32px 64px;
+  --card-glow-visibility: 0;
   --mesh-1: #b87333;
   --mesh-2: #d4a94a;
   --mesh-3: #a07850;
@@ -23,6 +25,8 @@
   --border: #262626;
   --accent: #1db57a;
   --card-bg: #111111;
+  --card-shadow: none;
+  --card-glow-visibility: 1;
   --mesh-1: #1db57a;
   --mesh-2: #38bdf8;
   --mesh-3: #c084fc;

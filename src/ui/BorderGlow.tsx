@@ -175,7 +175,7 @@ const BorderGlow: React.FC<BorderGlowProps> = ({
         background: backgroundColor,
         borderRadius: `${borderRadius}px`,
         transform: 'translate3d(0, 0, 0.01px)',
-        boxShadow: 'rgba(0,0,0,0.1) 0 1px 2px, rgba(0,0,0,0.1) 0 2px 4px, rgba(0,0,0,0.1) 0 4px 8px, rgba(0,0,0,0.1) 0 8px 16px, rgba(0,0,0,0.1) 0 16px 32px, rgba(0,0,0,0.1) 0 32px 64px',
+        boxShadow: 'var(--card-shadow)',
       }}
     >
       <div
@@ -187,7 +187,7 @@ const BorderGlow: React.FC<BorderGlowProps> = ({
             'linear-gradient(rgb(255 255 255 / 0%) 0% 100%) border-box',
             ...borderBg,
           ].join(', '),
-          opacity: borderOpacity,
+          opacity: `calc(${borderOpacity} * var(--card-glow-visibility))`,
           maskImage: `conic-gradient(from ${angleDeg} at center, black ${coneSpread}%, transparent ${coneSpread + 15}%, transparent ${100 - coneSpread - 15}%, black ${100 - coneSpread}%)`,
           WebkitMaskImage: `conic-gradient(from ${angleDeg} at center, black ${coneSpread}%, transparent ${coneSpread + 15}%, transparent ${100 - coneSpread - 15}%, black ${100 - coneSpread}%)`,
           transition: isVisible ? 'opacity 0.25s ease-out' : 'opacity 0.75s ease-in-out',
@@ -219,7 +219,7 @@ const BorderGlow: React.FC<BorderGlowProps> = ({
           ].join(', '),
           maskComposite: 'subtract, add, add, add, add, add',
           WebkitMaskComposite: 'source-out, source-over, source-over, source-over, source-over, source-over',
-          opacity: borderOpacity * fillOpacity,
+          opacity: `calc(${borderOpacity * fillOpacity} * var(--card-glow-visibility))`,
           mixBlendMode: 'soft-light',
           transition: isVisible ? 'opacity 0.25s ease-out' : 'opacity 0.75s ease-in-out',
         } as React.CSSProperties}
@@ -231,7 +231,7 @@ const BorderGlow: React.FC<BorderGlowProps> = ({
           inset: `${-glowRadius}px`,
           maskImage: `conic-gradient(from ${angleDeg} at center, black 2.5%, transparent 10%, transparent 90%, black 97.5%)`,
           WebkitMaskImage: `conic-gradient(from ${angleDeg} at center, black 2.5%, transparent 10%, transparent 90%, black 97.5%)`,
-          opacity: glowOpacity,
+          opacity: `calc(${glowOpacity} * var(--card-glow-visibility))`,
           mixBlendMode: 'plus-lighter',
           transition: isVisible ? 'opacity 0.25s ease-out' : 'opacity 0.75s ease-in-out',
         } as React.CSSProperties}

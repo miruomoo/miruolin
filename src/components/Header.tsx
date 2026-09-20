@@ -73,7 +73,7 @@ function ThemeToggle() {
         type="button"
         onClick={() => setTheme(next)}
         aria-label={`Switch to ${NEXT_LABEL[next]} mode`}
-        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border/60 text-muted transition-colors hover:border-border hover:text-fg"
+        className="inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-full border border-border/60 text-muted transition-colors hover:border-border hover:text-fg"
       >
         <span className="sr-only">Toggle theme</span>
         {mounted ? (
