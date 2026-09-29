@@ -60,7 +60,7 @@ const NEXT_LABEL: Record<string, string> = { light: "Light", dark: "Dark", syste
 
 function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
-  const { theme, resolvedTheme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => setMounted(true), []);
 
@@ -77,8 +77,8 @@ function ThemeToggle() {
       >
         <span className="sr-only">Toggle theme</span>
         {mounted ? (
-          current === "system" ? <SystemIcon /> :
-          resolvedTheme === "dark" ? <MoonIcon /> : <SunIcon />
+          next === "system" ? <SystemIcon /> :
+          next === "dark" ? <MoonIcon /> : <SunIcon />
         ) : <span className="h-4 w-4" />}
       </button>
       <span
