@@ -15,7 +15,7 @@ export const experiences: Experience[] = [
     period: "June 2025 — Present",
     location: "Toronto",
     description:
-      "Shipping AI-powered products at Manulife, including a customer support research assistant and an internal HR chatbot used company-wide. Also automating the CI/CD pipelines keeping them and other tools deployed.",
+      "Shipping AI-powered products at Manulife, including a customer support research assistant and an agentic HR platform used company-wide. Also automating the CI/CD pipelines keeping them and other tools deployed.",
     tech: ["TypeScript", "Next.js", "Python", "LangChain", "FastAPI"],
     href: "https://www.manulife.com/ca/en/about-us/ai",
   },
