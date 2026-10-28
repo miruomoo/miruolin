@@ -5,10 +5,10 @@ const MESH_COLORS = ["#ffffff", "#a3a3a3", "#525252"];
 
 export function Projects() {
   return (
-    <section id="projects" className="mx-auto w-full max-w-5xl scroll-mt-20 px-6 py-14 sm:py-20">
-      <p className="mb-8 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-muted">
+    <section id="projects" className="mx-auto w-full max-w-4xl scroll-mt-20 px-6 py-14 sm:py-20">
+      <h2 className="mb-8 text-base font-medium text-muted">
         Projects
-      </p>
+      </h2>
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         {projects.map((project) => (
           <BorderGlow

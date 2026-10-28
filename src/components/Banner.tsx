@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTheme } from "next-themes";
 import SpecularButton from "@/ui/SpecularButton";
 import Grainient from "@/ui/Grainient";
@@ -16,12 +16,16 @@ export function Banner() {
   const { resolvedTheme } = useTheme();
   const isLight = resolvedTheme === "light";
   const [copied, setCopied] = useState(false);
+  const hideTimer = useRef<ReturnType<typeof setTimeout>>(undefined);
+
+  useEffect(() => () => clearTimeout(hideTimer.current), []);
 
   const handleCopy = () => {
     const email = EMAIL_R.split("").reverse().join("");
     navigator.clipboard.writeText(email).then(() => {
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      clearTimeout(hideTimer.current);
+      hideTimer.current = setTimeout(() => setCopied(false), 2000);
     });
   };
 
@@ -48,7 +52,7 @@ export function Banner() {
         />
       </div>
       <div className="flex flex-col items-center text-center">
-        <p className="mb-8 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-muted animate-fade-up [animation-delay:0ms]">
+        <p className="mb-8 text-base font-medium text-muted animate-fade-up [animation-delay:0ms]">
           Software Engineer
         </p>
 
@@ -112,15 +116,17 @@ export function Banner() {
           {copied ? <CheckIcon /> : <ClipboardIcon />}
         </button>
 
-        {copied && (
-          <div
-            role="status"
-            aria-live="polite"
-            className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2 rounded-full border border-border/60 bg-surface px-4 py-1.5 text-[0.75rem] font-medium text-fg shadow-md animate-fade-up"
-          >
-            Email copied!
-          </div>
-        )}
+        <span role="status" aria-live="polite" className="sr-only">
+          {copied ? "Email copied!" : ""}
+        </span>
+        <div
+          aria-hidden="true"
+          className={`pointer-events-none fixed bottom-6 left-1/2 z-50 -translate-x-1/2 rounded-full border border-border/60 bg-surface px-4 py-1.5 text-[0.75rem] font-medium text-fg shadow-md transition-[opacity,translate,scale] duration-300 ease-[cubic-bezier(0.22,0.61,0.36,1)] motion-reduce:transition-none ${
+            copied ? "translate-y-0 scale-100 opacity-100" : "translate-y-2 scale-95 opacity-0"
+          }`}
+        >
+          Email copied!
+        </div>
       </div>
     </section>
   );

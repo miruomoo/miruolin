@@ -28,8 +28,8 @@ export function About() {
       id="about"
       className="mx-auto w-full max-w-4xl scroll-mt-20 px-6 py-14 sm:py-20"
     >
-      <div className="mx-auto flex w-fit max-w-full flex-col items-start gap-8 sm:flex-row sm:items-start sm:gap-20">
-        <div className="h-40 w-40 shrink-0 md:h-50 md:w-50">
+      <div className="flex flex-col items-start gap-8 sm:flex-row sm:gap-16">
+        <div className="h-40 w-40 shrink-0 self-center sm:self-auto md:h-50 md:w-50">
           <Stack
             cards={cards.reverse()}
             sensitivity={150}
@@ -37,10 +37,10 @@ export function About() {
             animationConfig={{ stiffness: 260, damping: 20 }}
           />
         </div>
-        <div className="max-w-xl">
-          <p className="mb-6 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-muted">
+        <div className="min-w-0 flex-1">
+          <h2 className="mb-8 text-base font-medium text-muted">
             About
-          </p>
+          </h2>
           <div className="flex flex-col gap-4 text-base leading-relaxed text-fg/85 sm:text-md">
             <p>
               I&rsquo;m a full-stack engineer who obsesses over how software feels to use. Most of my time goes into building products end-to-end: designing interactions, shipping code, and refining based on user feedback.

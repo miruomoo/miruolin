@@ -27,7 +27,7 @@ export function Header() {
           : "border-b border-transparent bg-transparent"
       }`}
     >
-      <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
+      <div className="mx-auto flex h-16 max-w-4xl items-center justify-between px-6">
         <a
           href="#top"
           className="font-serif text-xl leading-none tracking-tight text-fg transition-opacity hover:opacity-70"
@@ -83,7 +83,7 @@ function ThemeToggle() {
       </button>
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute left-1/2 top-full mt-1.5 -translate-x-1/2 whitespace-nowrap rounded border border-border/60 bg-surface px-2 py-0.5 text-[0.65rem] font-medium uppercase tracking-[0.1em] text-muted opacity-0 transition-opacity duration-150 group-hover:opacity-100"
+        className="pointer-events-none absolute left-1/2 top-full mt-1.5 -translate-x-1/2 whitespace-nowrap rounded border border-border/60 bg-surface px-2 py-0.5 text-[0.7rem] font-medium text-muted opacity-0 transition-opacity duration-150 group-hover:opacity-100"
       >
         {NEXT_LABEL[next]}
       </span>
